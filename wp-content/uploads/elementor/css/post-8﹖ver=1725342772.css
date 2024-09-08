@@ -1,0 +1,278 @@
+.elementor-kit-8 {
+  --e-global-color-primary: #4c2d87;
+  --e-global-color-secondary: #31205b;
+  --e-global-color-text: #34e08e;
+  --e-global-color-accent: #38c67f;
+  --e-global-color-c895ebc: #a9f7d1;
+  --e-global-color-9487db3: #ffffff;
+  --e-global-color-d272ceb: #000000;
+  --e-global-color-4a23396: #1e1e1e;
+  --e-global-color-9ef69bb: #edeef3;
+  --e-global-color-1239117: #333333;
+  --e-global-color-04ede3b: #999999;
+  --e-global-color-7be9019: #b2b2b2;
+  --e-global-color-c804364: #1a1a1a;
+  --e-global-color-60b9180: #9481b7;
+  --e-global-color-b31c26b: #a374fb;
+  --e-global-color-dfc6ac6: #666666;
+  --e-global-color-6c9d02f: #202020;
+  --e-global-typography-primary-font-family: "Manrope";
+  --e-global-typography-primary-font-size: 60px;
+  --e-global-typography-primary-font-weight: 500;
+  --e-global-typography-primary-line-height: 75px;
+  --e-global-typography-secondary-font-family: "Manrope";
+  --e-global-typography-secondary-font-size: 24px;
+  --e-global-typography-secondary-font-weight: 400;
+  --e-global-typography-secondary-line-height: 36px;
+  --e-global-typography-text-font-family: "Manrope";
+  --e-global-typography-text-font-size: 18px;
+  --e-global-typography-text-font-weight: 500;
+  --e-global-typography-text-line-height: 28px;
+  --e-global-typography-accent-font-family: "Manrope";
+  --e-global-typography-accent-font-size: 32px;
+  --e-global-typography-accent-font-weight: 500;
+  --e-global-typography-accent-line-height: 40px;
+  --e-global-typography-ab6a2cd-font-family: "Manrope";
+  --e-global-typography-ab6a2cd-font-size: 72px;
+  --e-global-typography-ab6a2cd-font-weight: 500;
+  --e-global-typography-ab6a2cd-line-height: 92px;
+  --e-global-typography-ab6a2cd-letter-spacing: -0.2px;
+  --e-global-typography-e6c1bbf-font-family: "Manrope";
+  --e-global-typography-e6c1bbf-font-size: 60px;
+  --e-global-typography-e6c1bbf-font-weight: 500;
+  --e-global-typography-e6c1bbf-line-height: 75px;
+  --e-global-typography-e6c1bbf-letter-spacing: 0px;
+  --e-global-typography-faa05e1-font-family: "Manrope";
+  --e-global-typography-faa05e1-font-size: 45px;
+  --e-global-typography-faa05e1-font-weight: 500;
+  --e-global-typography-faa05e1-text-transform: capitalize;
+  --e-global-typography-faa05e1-line-height: 55px;
+  --e-global-typography-faa05e1-letter-spacing: -0.5px;
+  --e-global-typography-fd21e42-font-family: "Manrope";
+  --e-global-typography-fd21e42-font-size: 32px;
+  --e-global-typography-fd21e42-font-weight: 500;
+  --e-global-typography-fd21e42-text-transform: capitalize;
+  --e-global-typography-fd21e42-line-height: 40px;
+  --e-global-typography-fd21e42-letter-spacing: 0px;
+  --e-global-typography-8e75311-font-family: "Manrope";
+  --e-global-typography-8e75311-font-size: 24px;
+  --e-global-typography-8e75311-font-weight: 600;
+  --e-global-typography-8e75311-line-height: 36px;
+  --e-global-typography-f558570-font-family: "Manrope";
+  --e-global-typography-f558570-font-size: 20px;
+  --e-global-typography-f558570-font-weight: 700;
+  --e-global-typography-f558570-line-height: 30px;
+  --e-global-typography-a9267f7-font-family: "Manrope";
+  --e-global-typography-a9267f7-font-size: 17px;
+  --e-global-typography-a9267f7-font-weight: 500;
+  --e-global-typography-a9267f7-line-height: 28px;
+  --e-global-typography-a9267f7-letter-spacing: 0.15px;
+  --e-global-typography-6531de7-font-family: "Manrope";
+  --e-global-typography-6531de7-font-size: 16px;
+  --e-global-typography-6531de7-font-weight: 400;
+  --e-global-typography-6531de7-line-height: 24px;
+  --e-global-typography-6531de7-letter-spacing: -0.1px;
+  --e-global-typography-aa1f58c-font-family: "Manrope";
+  --e-global-typography-aa1f58c-font-size: 16px;
+  --e-global-typography-aa1f58c-font-weight: 400;
+  --e-global-typography-aa1f58c-line-height: 24px;
+  --e-global-typography-4a01cd0-font-family: "Manrope";
+  --e-global-typography-4a01cd0-font-size: 14px;
+  --e-global-typography-4a01cd0-font-weight: 400;
+  --e-global-typography-4a01cd0-line-height: 20px;
+  --e-global-typography-419a194-font-family: "Satoshi Medium";
+  --e-global-typography-419a194-font-size: 12px;
+  --e-global-typography-419a194-font-weight: 400;
+  --e-global-typography-419a194-line-height: 18px;
+  --e-global-typography-5a2b1d7-font-family: "Manrope";
+  --e-global-typography-5a2b1d7-font-size: 16px;
+  --e-global-typography-5a2b1d7-font-weight: 500;
+  --e-global-typography-5a2b1d7-line-height: 24px;
+  --e-global-typography-2698f0d-font-family: "Manrope";
+  --e-global-typography-2698f0d-font-size: 14px;
+  --e-global-typography-2698f0d-font-weight: 700;
+  --e-global-typography-2698f0d-line-height: 20px;
+  --e-global-typography-2698f0d-letter-spacing: 2px;
+  --e-global-typography-3078ee4-font-family: "Manrope";
+  --e-global-typography-3078ee4-font-size: 12px;
+  --e-global-typography-3078ee4-font-weight: 700;
+  --e-global-typography-3078ee4-line-height: 18px;
+  --e-global-typography-0535bf9-font-family: "Manrope";
+  --e-global-typography-0535bf9-font-size: 20px;
+  --e-global-typography-0535bf9-font-weight: 700;
+  --e-global-typography-0535bf9-line-height: 31px;
+  --e-global-typography-0535bf9-letter-spacing: 0.8px;
+  background-color: #1e1e1e;
+}
+.elementor-kit-8 a {
+  color: var(--e-global-color-text);
+}
+.elementor-kit-8 a:hover {
+  color: var(--e-global-color-text);
+}
+.elementor-kit-8 button,
+.elementor-kit-8 input[type="button"],
+.elementor-kit-8 input[type="submit"],
+.elementor-kit-8 .elementor-button {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 1.25px;
+}
+.elementor-section.elementor-section-boxed > .elementor-container {
+  max-width: 1100px;
+}
+.e-con {
+  --container-max-width: 1100px;
+}
+.elementor-widget:not(:last-child) {
+  margin-block-end: 20px;
+}
+.elementor-element {
+  --widgets-spacing: 20px 20px;
+}
+ {
+}
+h1.entry-title {
+  display: var(--page-title-display);
+}
+.elementor-kit-8 e-page-transition {
+  background-color: #ffbc7d;
+}
+.site-header .site-branding {
+  flex-direction: column;
+  align-items: stretch;
+}
+.site-header {
+  padding-inline-end: 0;
+  padding-inline-start: 0;
+}
+.site-footer .site-branding {
+  flex-direction: column;
+  align-items: stretch;
+}
+@media (max-width: 1024px) {
+  .elementor-kit-8 {
+    --e-global-typography-faa05e1-font-size: 40px;
+    --e-global-typography-faa05e1-line-height: 1.3em;
+    --e-global-typography-8e75311-font-size: 20px;
+    --e-global-typography-8e75311-line-height: 25px;
+    --e-global-typography-a9267f7-font-size: 16px;
+    --e-global-typography-a9267f7-line-height: 1.6em;
+  }
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 720px;
+  }
+  .e-con {
+    --container-max-width: 720px;
+  }
+}
+@media (max-width: 767px) {
+  .elementor-kit-8 {
+    --e-global-typography-e6c1bbf-font-size: 35px;
+    --e-global-typography-e6c1bbf-line-height: 40px;
+    --e-global-typography-faa05e1-font-size: 33px;
+    --e-global-typography-faa05e1-line-height: 1.3em;
+    --e-global-typography-fd21e42-font-size: 26px;
+    --e-global-typography-fd21e42-line-height: 30px;
+    --e-global-typography-8e75311-font-size: 22px;
+    --e-global-typography-f558570-font-size: 16px;
+    --e-global-typography-a9267f7-font-size: 15px;
+    --e-global-typography-a9267f7-line-height: 23px;
+    --e-global-typography-4a01cd0-font-size: 15px;
+    --e-global-typography-3078ee4-font-size: 10px;
+    --e-global-typography-0535bf9-font-size: 16px;
+  }
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 767px;
+  }
+  .e-con {
+    --container-max-width: 767px;
+  }
+}
+#mynav {
+  position: absolute;
+  top: 0 !important;
+  right: 0 !important;
+}
+#nav-icon {
+  width: 26px;
+  height: 19px;
+  margin-top: -5px;
+  padding: 0 !important;
+  position: relative;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+#nav-icon span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #fff;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+#nav-icon span:nth-child(1) {
+  top: 0;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+#nav-icon span:nth-child(2) {
+  top: 8px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+#nav-icon span:nth-child(3) {
+  top: 16px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+#nav-icon.open span:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: -2px;
+  left: 0;
+}
+#nav-icon.open span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+#nav-icon.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 16px;
+  left: 0;
+}
+@font-face {
+  font-family: satoshi medium;
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url(../../2022/09/Satoshi-Medium.ttf) format("truetype");
+}

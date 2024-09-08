@@ -1,0 +1,2352 @@
+<!doctype html>
+<html lang="en-US" prefix="og: https://ogp.me/ns#">
+<head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="1.2.6",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this.t.bind(this),this.touchStartHandler=this.i.bind(this),this.touchMoveHandler=this.o.bind(this),this.touchEndHandler=this.h.bind(this),this.clickHandler=this.u.bind(this),this.interceptedClicks=[],this.interceptedClickListeners=[],this.l(this),window.addEventListener("pageshow",(t=>{this.persisted=t.persisted,this.everythingLoaded&&this.m()})),this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",(t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))})),document.addEventListener("DOMContentLoaded",(()=>{this.k()})),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}p(t){document.hidden?t.t():(this.triggerEvents.forEach((e=>window.addEventListener(e,t.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler))}_(){this.triggerEvents.forEach((t=>window.removeEventListener(t,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}i(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this.L(t.target,!0),this.S(t.target,"onclick","rocket-onclick"),this.C())}o(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.S(t.target,"rocket-onclick","onclick"),this.M()}h(){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}u(t){t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.S(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this.M()}O(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))}))}l(t){EventTarget.prototype.addEventListenerWPRocketBase=EventTarget.prototype.addEventListener,EventTarget.prototype.addEventListener=function(e,i,o){"click"!==e||t.windowLoaded||i===t.clickHandler||t.interceptedClickListeners.push({target:this,func:i,options:o}),(this||window).addEventListenerWPRocketBase(e,i,o)}}L(t,e){this.interceptedClickListeners.forEach((i=>{i.target===t&&(e?t.removeEventListener("click",i.func,i.options):t.addEventListener("click",i.func,i.options))})),t.parentNode!==document.documentElement&&this.L(t.parentNode,e)}D(){return new Promise((t=>{this.P?this.M=t:t()}))}C(){this.P=!0}M(){this.P=!1}S(t,e,i){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(i,event.target.getAttribute(e)),event.target.removeAttribute(e))}t(){this._(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this.R.bind(this)):this.R()}k(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript][data-rocket-src]").forEach((e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){0===i.indexOf("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}})),t=[...new Map(t.map((t=>[JSON.stringify(t),t]))).values()],this.T(t,"preconnect")}async R(){this.lastBreath=Date.now(),this.j(this),this.F(this),this.I(),this.W(),this.q(),await this.A(this.delayedScripts.normal),await this.A(this.delayedScripts.defer),await this.A(this.delayedScripts.async);try{await this.U(),await this.H(this),await this.J()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.D().then((()=>{this.O()})),this.N()}W(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)}))}async B(t){if(await this.G(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise((e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach((t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))})),t.text&&(i.text=t.text),i.hasAttribute("src")?(i.addEventListener("load",o),i.addEventListener("error",(function(){i.setAttribute("data-rocket-status","failed-network"),e()})),setTimeout((()=>{i.isConnected||e()}),1)):(i.text=t.text,o()),t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o),t.addEventListener("error",(i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: data-uri blocked by CSP -> fallback"),t.removeAttribute("src"),this.B(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())})),s?(t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}}));t.setAttribute("data-rocket-status","skipped")}async A(t){const e=t.shift();return e&&e.isConnected?(await this.B(e),this.A(t)):Promise.resolve()}q(){this.T([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}T(t,e){var i=document.createDocumentFragment();t.forEach((t=>{const o=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(o&&!o.startsWith("data:")){const s=document.createElement("link");s.href=o,s.rel=e,"preconnect"!==e&&(s.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(s.crossOrigin=!0),t.crossOrigin&&(s.crossOrigin=t.crossOrigin),t.integrity&&(s.integrity=t.integrity),i.appendChild(s),this.trash.push(s)}})),document.head.appendChild(i)}j(t){let e={};function i(i,o){return e[o].eventsToRewrite.indexOf(i)>=0&&!t.everythingLoaded?"rocket-"+i:i}function o(t,o){!function(t){e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(o)}function s(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o||function(){},set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}o(document,"DOMContentLoaded"),o(window,"DOMContentLoaded"),o(window,"load"),o(window,"pageshow"),o(document,"readystatechange"),s(document,"onreadystatechange"),s(window,"onload"),s(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}F(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map((t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t)).join(" ")}function o(o){function s(t){const e=o.fn[t];o.fn[t]=o.fn.init.prototype[t]=function(){return this[0]===window&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e}))),e.apply(this,arguments),this}}o&&o.fn&&!t.allJQueries.includes(o)&&(o.fn.ready=o.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(o):document.addEventListener("rocket-DOMContentLoaded",(()=>e.bind(document)(o))),o([])},s("on"),s("one"),t.allJQueries.push(o)),e=o}o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}async H(t){const e=document.querySelector("script[data-webpack]");e&&(await async function(){return new Promise((t=>{e.addEventListener("load",t),e.addEventListener("error",t)}))}(),await t.K(),await t.H(t))}async U(){this.domReadyFired=!0;try{document.readyState="interactive"}catch(t){}await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.G(),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}async J(){try{document.readyState="complete"}catch(t){}await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),window.dispatchEvent(new Event("rocket-load")),await this.G(),window.rocketonload&&window.rocketonload(),await this.G(),this.allJQueries.forEach((t=>t(window).trigger("rocket-jquery-load"))),await this.G();const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.G(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted}),this.windowLoaded=!0}m(){document.onreadystatechange&&document.onreadystatechange(),window.onload&&window.onload(),window.onpageshow&&window.onpageshow({persisted:this.persisted})}I(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript;i||console.error("WPRocket unable to document.write this: "+e);const o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async G(){Date.now()-this.lastBreath>45&&(await this.K(),this.lastBreath=Date.now())}async K(){return document.hidden?new Promise((t=>setTimeout(t))):new Promise((t=>requestAnimationFrame(t)))}N(){this.trash.forEach((t=>t.remove()))}static run(){const t=new RocketLazyLoadScripts;t.p(t)}}RocketLazyLoadScripts.run()})();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+
+<title>Master Videography &amp; Photography | Brandemic Blog</title><link rel="preload" data-rocket-preload as="style" href="https://fonts.googleapis.com/css?family=Manrope%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap" media="print" onload="this.media='all'" /><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap" /></noscript><link rel="preload" data-rocket-preload as="image" href="../wp-content/uploads/2023/07/Brand-Photography.webp" imagesrcset="../wp-content/uploads/2023/07/Brand-Photography.webp 1359w, ../wp-content/uploads/2023/07/Brand-Photography-300x200.webp 300w, ../wp-content/uploads/2023/07/Brand-Photography-1024x683.webp 1024w, ../wp-content/uploads/2023/07/Brand-Photography-150x100.webp 150w, ../wp-content/uploads/2023/07/Brand-Photography-768x512.webp 768w" imagesizes="(max-width: 1359px) 100vw, 1359px" fetchpriority="high">
+<meta name="description" content="Explore Videography &amp; Photography insights, tips &amp; inspiration to master the art of visual storytelling." />
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+<link rel="canonical" href="index.html" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Master Videography &amp; Photography | Brandemic Blog" />
+<meta property="og:description" content="Explore Videography &amp; Photography insights, tips &amp; inspiration to master the art of visual storytelling." />
+<meta property="og:url" content="https://ytxsolutions.in/videography-photography/" />
+<meta property="og:site_name" content="Brandemic" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Master Videography &amp; Photography | Brandemic Blog" />
+<meta name="twitter:description" content="Explore Videography &amp; Photography insights, tips &amp; inspiration to master the art of visual storytelling." />
+<meta name="twitter:label1" content="Posts" />
+<meta name="twitter:data1" content="6" />
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":"Place","@id":"https://ytxsolutions.in/#place","geo":{"@type":"GeoCoordinates","latitude":"12.9330306","longitude":"77.6215433"},"hasMap":"https://www.google.com/maps/search/?api=1&amp;query=12.9330306,77.6215433","address":{"@type":"PostalAddress","streetAddress":"49, 1st Cross Rd","addressLocality":"5th Block","addressRegion":"Koramangala, Bengaluru, Karnataka","postalCode":"560095","addressCountry":"India"}},{"@type":"Organization","@id":"https://ytxsolutions.in/#organization","name":"Brandemic","url":"https://ytxsolutions.in/","email":"info@brandemic.in","address":{"@type":"PostalAddress","streetAddress":"49, 1st Cross Rd","addressLocality":"5th Block","addressRegion":"Koramangala, Bengaluru, Karnataka","postalCode":"560095","addressCountry":"India"},"logo":{"@type":"ImageObject","@id":"https://ytxsolutions.in/#logo","url":"https://ytxsolutions.in/wp-content/uploads/2024/01/White-Text.png","contentUrl":"https://ytxsolutions.in/wp-content/uploads/2024/01/White-Text.png","caption":"Brandemic","inLanguage":"en-US","width":"1999","height":"463"},"contactPoint":[{"@type":"ContactPoint","telephone":"+919591953787","contactType":"customer support"}],"location":{"@id":"https://ytxsolutions.in/#place"}},{"@type":"WebSite","@id":"https://ytxsolutions.in/#website","url":"https://brandemic.in","name":"Brandemic","alternateName":"Brandemic","publisher":{"@id":"https://ytxsolutions.in/#organization"},"inLanguage":"en-US"},{"@type":"CollectionPage","@id":"https://ytxsolutions.in/videography-photography/#webpage","url":"https://ytxsolutions.in/videography-photography/","name":"Master Videography &amp; Photography | Brandemic Blog","isPartOf":{"@id":"https://ytxsolutions.in/#website"},"inLanguage":"en-US"}]}</script>
+
+<link href="https://fonts.gstatic.com" rel="preconnect" />
+<link rel="alternate" type="application/rss+xml" title="Brandemic &raquo; Feed" href="../feed/index.rss" />
+<link rel="alternate" type="application/rss+xml" title="Brandemic &raquo; Comments Feed" href="../comments/feed/index.rss" />
+<link rel="alternate" type="application/rss+xml" title="Brandemic &raquo; Videography &amp; Photography Category Feed" href="feed/index.rss" />
+<link rel="stylesheet" id="sbi_styles-css" href="../wp-content/plugins/instagram-feed/css/sbi-styles.min%EF%B9%96ver=6.5.0.css" media="all" />
+<link data-minify="1" rel="stylesheet" id="premium-addons-css" href="../wp-content/cache/min/1/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/premium-addons.min%EF%B9%96ver=1725623013.css" media="all" />
+<link data-minify="1" rel="stylesheet" id="jkit-elements-main-css" href="../wp-content/cache/min/1/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main%EF%B9%96ver=1725622949.css" media="all" />
+<style id="wp-emoji-styles-inline-css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<style id="rank-math-toc-block-style-inline-css">.wp-block-rank-math-toc-block nav ol{counter-reset:item}.wp-block-rank-math-toc-block nav ol li{display:block}.wp-block-rank-math-toc-block nav ol li:before{content:counters(item, ".") ". ";counter-increment:item}
+
+</style>
+<style id="classic-theme-styles-inline-css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css">:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link data-minify="1" rel="stylesheet" id="elementor-icons-css" href="../wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min%EF%B9%96ver=1725622949.css" media="all" />
+<link rel="stylesheet" id="elementor-frontend-css" href="../wp-content/plugins/elementor/assets/css/frontend.min%EF%B9%96ver=3.23.4.css" media="all" />
+<link data-minify="1" rel="stylesheet" id="swiper-css" href="../wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min%EF%B9%96ver=1725622949.css" media="all" />
+<link rel="stylesheet" id="elementor-post-8-css" href="../wp-content/uploads/elementor/css/post-8%EF%B9%96ver=1725342772.css" media="all" />
+<link rel="stylesheet" id="elementor-pro-css" href="../wp-content/plugins/elementor-pro/assets/css/frontend.min%EF%B9%96ver=3.23.3.css" media="all" />
+<link rel="stylesheet" id="sbistyles-css" href="../wp-content/plugins/instagram-feed/css/sbi-styles.min%EF%B9%96ver=6.5.0.css" media="all" />
+<link data-minify="1" rel="stylesheet" id="font-awesome-5-all-css" href="../wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min%EF%B9%96ver=1725622949.css" media="all" />
+<link rel="stylesheet" id="font-awesome-4-shim-css" href="../wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min%EF%B9%96ver=3.23.4.css" media="all" />
+<link rel="stylesheet" id="elementor-global-css" href="../wp-content/uploads/elementor/css/global%EF%B9%96ver=1725342775.css" media="all" />
+<link rel="stylesheet" id="hello-elementor-css" href="../wp-content/themes/hello-elementor/style.min%EF%B9%96ver=3.1.1.css" media="all" />
+<link rel="stylesheet" id="hello-elementor-theme-style-css" href="../wp-content/themes/hello-elementor/theme.min%EF%B9%96ver=3.1.1.css" media="all" />
+<link rel="stylesheet" id="hello-elementor-header-footer-css" href="../wp-content/themes/hello-elementor/header-footer.min%EF%B9%96ver=3.1.1.css" media="all" />
+<link rel="stylesheet" id="elementor-post-43-css" href="../wp-content/uploads/elementor/css/post-43%EF%B9%96ver=1725342775.css" media="all" />
+<link rel="stylesheet" id="elementor-post-228-css" href="../wp-content/uploads/elementor/css/post-228%EF%B9%96ver=1725342776.css" media="all" />
+<link rel="stylesheet" id="elementor-post-16728-css" href="../wp-content/uploads/elementor/css/post-16728%EF%B9%96ver=1725343606.css" media="all" />
+<link rel="stylesheet" id="elementor-post-2382-css" href="../wp-content/uploads/elementor/css/post-2382%EF%B9%96ver=1725342776.css" media="all" />
+<link data-minify="1" rel="stylesheet" id="elementor-icons-ekiticons-css" href="../wp-content/cache/min/1/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons%EF%B9%96ver=1725622949.css" media="all" />
+<link data-minify="1" rel="stylesheet" id="ekit-widget-styles-css" href="../wp-content/cache/min/1/wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles%EF%B9%96ver=1725622949.css" media="all" />
+<link data-minify="1" rel="stylesheet" id="ekit-responsive-css" href="../wp-content/cache/min/1/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive%EF%B9%96ver=1725622949.css" media="all" />
+<link rel="stylesheet" id="eael-general-css" href="../wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min%EF%B9%96ver=6.0.3.css" media="all" />
+<link data-minify="1" rel="stylesheet" id="ecs-styles-css" href="../wp-content/cache/min/1/wp-content/plugins/ele-custom-skin/assets/css/ecs-style%EF%B9%96ver=1725622949.css" media="all" />
+<link rel="stylesheet" id="elementor-post-2082-css" href="../wp-content/uploads/elementor/css/post-2082%EF%B9%96ver=1710173616.css" media="all" />
+<link rel="stylesheet" id="elementor-icons-shared-0-css" href="../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min%EF%B9%96ver=5.15.3.css" media="all" />
+<link data-minify="1" rel="stylesheet" id="elementor-icons-fa-solid-css" href="../wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min%EF%B9%96ver=1725622949.css" media="all" />
+<link data-minify="1" rel="stylesheet" id="elementor-icons-fa-brands-css" href="../wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min%EF%B9%96ver=1725622949.css" media="all" />
+<link rel="preconnect" href="https://fonts.gstatic.com/"><script type="rocketlazyloadscript" data-rocket-src="https://ytxsolutions.in/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.23.4" id="font-awesome-4-shim-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://ytxsolutions.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://ytxsolutions.in/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js" data-rocket-defer defer></script>
+<script id="ecs_ajax_load-js-extra">
+var ecs_ajax_params = {"ajaxurl":"https:\/\/brandemic.in\/wp-admin\/admin-ajax.php","posts":"{\"category_name\":\"videography-photography\",\"error\":\"\",\"m\":\"\",\"p\":0,\"post_parent\":\"\",\"subpost\":\"\",\"subpost_id\":\"\",\"attachment\":\"\",\"attachment_id\":0,\"name\":\"\",\"pagename\":\"\",\"page_id\":0,\"second\":\"\",\"minute\":\"\",\"hour\":\"\",\"day\":0,\"monthnum\":0,\"year\":0,\"w\":0,\"tag\":\"\",\"cat\":63,\"tag_id\":\"\",\"author\":\"\",\"author_name\":\"\",\"feed\":\"\",\"tb\":\"\",\"paged\":0,\"meta_key\":\"\",\"meta_value\":\"\",\"preview\":\"\",\"s\":\"\",\"sentence\":\"\",\"title\":\"\",\"fields\":\"\",\"menu_order\":\"\",\"embed\":\"\",\"category__in\":[],\"category__not_in\":[],\"category__and\":[],\"post__in\":[],\"post__not_in\":[],\"post_name__in\":[],\"tag__in\":[],\"tag__not_in\":[],\"tag__and\":[],\"tag_slug__in\":[],\"tag_slug__and\":[],\"post_parent__in\":[],\"post_parent__not_in\":[],\"author__in\":[],\"author__not_in\":[],\"search_columns\":[],\"ignore_sticky_posts\":false,\"suppress_filters\":false,\"cache_results\":true,\"update_post_term_cache\":true,\"update_menu_item_cache\":false,\"lazy_load_term_meta\":true,\"update_post_meta_cache\":true,\"post_type\":\"\",\"posts_per_page\":30,\"nopaging\":false,\"comments_per_page\":\"50\",\"no_found_rows\":false,\"order\":\"DESC\"}"};
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://ytxsolutions.in/wp-content/cache/min/1/wp-content/plugins/ele-custom-skin/assets/js/ecs_ajax_pagination.js?ver=1725622949" id="ecs_ajax_load-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://ytxsolutions.in/wp-content/cache/min/1/wp-content/plugins/ele-custom-skin/assets/js/ecs.js?ver=1725622949" id="ecs-script-js" data-rocket-defer defer></script>
+<link rel="https://api.w.org/" href="../wp-json/index.json" /><link rel="alternate" title="JSON" type="application/json" href="../wp-json/wp/v2/categories/63.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ytxsolutions.in/xmlrpc.php?rsd" />
+
+<script type="rocketlazyloadscript" id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/ed89a124948a9698a6c0e3fca/5b2967cf336fd7f3d755598b7.js");</script>
+
+
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "f5tznn9lko");
+</script>
+
+
+
+<script type="rocketlazyloadscript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WZLVF2G7');</script>
+
+
+
+
+<script type="rocketlazyloadscript">
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '713992017468351');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=713992017468351&amp;ev=PageView&amp;noscript=1"
+/></noscript>
+
+
+<meta name="generator" content="Elementor 3.23.4; features: additional_custom_breakpoints, e_lazyload; settings: css_print_method-external, google_font-enabled, font_display-auto">
+<script type="rocketlazyloadscript" data-rocket-src="https://kit.fontawesome.com/3dbc476fdd.js" data-rocket-defer defer></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/css/intlTelInput.css">
+<script type="rocketlazyloadscript" data-rocket-src="https://www.google.com/recaptcha/api.js?render=6LerCgopAAAAAI_-v4vuiD_q0-hRKeUCGrGWVwbS"></script>
+<style>.grecaptcha-badge { 
+			visibility: hidden !important;
+	}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Brandemic India LLP",
+  "image": "https://ytxsolutions.in/wp-content/uploads/2022/09/logo-brandemic.svg",
+  "@id": "https://ytxsolutions.in/",
+  "url": "https://ytxsolutions.in/",
+  "telephone": "+919591953787",
+  "priceRange": "$$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "49, 1st Cross Rd, 5th Block, Koramangala",
+    "addressLocality": "Bengaluru",
+    "postalCode": "560095",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 12.9330647,
+    "longitude": 77.621558
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Monday",
+    "opens": "10:30",
+    "closes": "18:30"
+  },{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Tuesday",
+    "opens": "10:30",
+    "closes": "18:30"
+  },{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Wednesday",
+    "opens": "10:30",
+    "closes": "18:30"
+  },{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Thursday",
+    "opens": "10:30",
+    "closes": "18:30"
+  },{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Friday",
+    "opens": "10:30",
+    "closes": "18:30"
+  },{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Saturday",
+    "opens": "10:30",
+    "closes": "18:30"
+  },{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Sunday",
+    "opens": "",
+    "closes": ""
+  }],
+  "sameAs": [
+    "https://www.facebook.com/brandemic.design",
+    "https://twitter.com/brandemicglobal",
+    "https://www.instagram.com/brandemic_design/",
+    "https://www.youtube.com/@Brandemic_Design",
+    "https://in.linkedin.com/company/brandemic-design"
+  ] 
+}
+</script>
+<script type="rocketlazyloadscript" async data-rocket-src="https://umami-brandemic.up.railway.app/script.js" data-website-id="646f176f-cd2c-4b6a-8feb-52802a9a5273"></script>
+<style>.client-area {
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .client-area .clients {
+        display: flex;
+        align-items: center;
+        padding-right: 20px;
+        margin-right: 20px;
+/* 				gap: 100px; */
+    }
+
+    .logo-swiper {
+        width: 100%;
+        user-select: none !important;
+    }
+
+    .logo-slide {
+        align-content: center;
+        width: auto !important;
+    }
+
+    .ticker-container {
+        overflow: hidden;
+    }
+
+    .ticker-images {
+        display: flex;
+        margin: 0 1rem;
+        align-items: center;
+    }
+
+    .single-img {
+        width: 200px;
+        margin: 0 70px;
+        flex: none;
+        filter: brightness(0) invert(1);
+				max-width: none !important;
+    }
+
+    .single-img.medium-small {
+        width: 130px;
+    }
+
+    .single-img.small-img {
+        width: 150px;
+    }
+
+    .single-img.more-small {
+        width: 90px;
+    }
+
+    .single-img:hover {
+        filter: grayscale(0);
+    }
+
+    .ticker-container:hover .img-ticker {
+        animation-play-state: paused;
+    }
+
+
+
+    @media (max-width: 768px) {
+        .single-img {
+            width: 120px;
+            margin: 0 15px;
+        }
+
+        .single-img.medium-small {
+            width: 80px;
+        }
+
+        .single-img.small-img {
+            width: 100px;
+        }
+
+        .single-img.more-small {
+            width: 70px;
+        }
+
+    }
+</style>
+<style>.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+<script type="rocketlazyloadscript" id="google_gtagjs" data-rocket-src="https://www.googletagmanager.com/gtag/js?id=UA-166959076-1" async></script>
+<script type="rocketlazyloadscript" id="google_gtagjs-inline">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-166959076-1', {} );
+</script>
+<link rel="icon" href="../wp-content/uploads/2024/07/cropped-New-Logo-Brandemic-Fav-Icon-32x32.png" sizes="32x32" />
+<link rel="icon" href="../wp-content/uploads/2024/07/cropped-New-Logo-Brandemic-Fav-Icon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="../wp-content/uploads/2024/07/cropped-New-Logo-Brandemic-Fav-Icon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://ytxsolutions.in/wp-content/uploads/2024/07/cropped-New-Logo-Brandemic-Fav-Icon-270x270.png" />
+<style id="wp-custom-css">body{
+	overflow-x: hidden;
+}
+
+/*body{
+width:100%;
+overflow-x:hidden;
+}*/
+
+/* Metform Country Code Border */
+.elementor-inner-column .elementor-widget-wrap .elementor-element .elementor-widget-container > div > div > div{
+	border-right-width:0px !important;
+}
+	
+	/* Carousel next */
+	.premium-carousel-wrapper .carousel-next{
+		
+	}
+	
+}
+/* Carousel prev */
+.premium-carousel-wrapper .carousel-prev{
+	
+}
+
+
+/* 992px and larger screen sizes */
+@media (min-width:992px){
+
+	/* Carousel prev */
+	.elementor .elementor-element .e-con-inner .elementor-widget-premium-carousel-widget .elementor-widget-container .premium-carousel-wrapper .premium-carousel-inner .carousel-prev{
+		top:200px !important;
+	}
+	
+	/* Carousel next */
+	.elementor .elementor-element .e-con-inner .elementor-widget-premium-carousel-widget .elementor-widget-container .premium-carousel-wrapper .premium-carousel-inner .carousel-next{
+		top:200px !important;
+	}
+	
+}
+/* Carousel prev */
+.premium-carousel-wrapper .carousel-prev{
+	top:135px !important;
+}
+
+/* Carousel next */
+.premium-carousel-wrapper .carousel-next{
+	top:135px !important;
+	
+}
+
+.premium-dual-header-first-header, .premium-dual-header-second-header{
+	font-weight: 600 !important;
+}
+
+body, h2.elementor-heading-title.elementor-size-default, span.elementor-icon-list-text, input#form-field-email{
+	font-family: "Manrope", Sans-serif !important;
+}
+
+/* Selection Color Start */
+
+::-moz-selection {
+  color: white;
+  background: #4c2d87d9;
+}
+
+::selection {
+  color: white;
+  background: #4c2d87d9;
+}
+
+
+/* Selection Color End */
+
+/* Table of contents start */
+@media (max-width: 768px) {
+	.blog-bottom-sections{
+/* 		z-index: 0 !important; */
+	}
+	
+/* 	Contact Us Start */
+	.blog-bottom-sections .elementor-widget-wrap>.elementor-widget-html{
+/* 		display: block !important; */
+	}
+/* 	Contact Us End */
+	
+	#blog-content{
+/* 		z-index: 0 !important; */
+	}
+      #toc-list {
+				padding: 20px 20px !important;
+        display: none;
+				background-color: #1a1a1a !important;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+        z-index: 2 !important;
+				overflow-y: auto;
+    		height: auto;
+				border-radius: 20px 20px 0 0;
+      }
+	
+	#toc-heading{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		background-color: #1a1a1a;
+		padding: 24px 0;
+		border-radius: 20px 20px 0 0;
+		z-index: 1 !important;
+		text-align: center;
+		margin-bottom: 0 !important;
+	}
+	
+	.toc-section{
+		z-index: 9;
+	}
+
+    }
+
+/* Table of contents end */
+
+.ue_menu-social-icons{
+		justify-content: space-between !important;
+	  border: 2px solid #333;
+    border-left: 0;
+    border-right: 0;
+		padding: 16px 0;
+}
+
+body{
+	-webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+	-moz-tap-highlight-color: transparent;    /* Firefox */
+-ms-tap-highlight-color: transparent;  
+}
+.elementor-widget-text-editor p:last-child{ margin-bottom:0px;}
+
+.tools-list img{
+filter: brightness(0) invert(1);
+}
+
+.tool-box:hover img{
+filter:grayscale(0);
+}
+		</style>
+</head>
+<body data-rsssl="1" class="archive category category-videography-photography category-63 wp-custom-logo jkit-color-scheme elementor-default elementor-template-full-width elementor-kit-8 elementor-page-16728">
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+<div data-elementor-type="header" data-elementor-id="43" class="elementor elementor-43 elementor-location-header" data-elementor-post-type="elementor_library">
+<section class="elementor-section elementor-top-section elementor-element elementor-element-fe6e35d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fe6e35d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-521a2f5" data-id="521a2f5" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-b29c2ff elementor-widget elementor-widget-image" data-id="b29c2ff" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<a href="../index.html">
+<img fetchpriority="high" width="494" height="115" src="../wp-content/uploads/2022/09/logo-white.png" class="attachment-full size-full wp-image-22421" alt="brandemic logo" decoding="async" /> </a>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3fd84bd" data-id="3fd84bd" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-fc3d7ad elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-view-default elementor-widget elementor-widget-icon" data-id="fc3d7ad" data-element_type="widget" data-widget_type="icon.default">
+<div class="elementor-widget-container">
+<div class="elementor-icon-wrapper">
+<a class="elementor-icon" href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjIzODIiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="12" viewBox="0 0 24 12" fill="none"><line y1="1" x2="24" y2="1" stroke="white" stroke-width="2"></line><line y1="11" x2="24" y2="11" stroke="white" stroke-width="2"></line></svg> </a>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-8dfbb40 elementor-hidden-mobile elementor-widget elementor-widget-jkit_nav_menu" data-id="8dfbb40" data-element_type="widget" data-widget_type="jkit_nav_menu.default">
+<div class="elementor-widget-container">
+<div class="jeg-elementor-kit jkit-nav-menu break-point-tablet submenu-click-title jeg_module_18330__66dc56ced34a1" data-item-indicator="&lt;i aria-hidden=&quot;true&quot; class=&quot;fas fa-angle-down&quot;&gt;&lt;/i&gt;"><button aria-label="open-menu" class="jkit-hamburger-menu"><i aria-hidden="true" class="fas fa-bars"></i></button>
+<div class="jkit-menu-wrapper"><div class="jkit-menu-container"><ul id="menu-main_menu" class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-"><li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="../about-us/index.html">About Us</a></li>
+<li id="menu-item-6107" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6107"><a href="../portfolio/index.html">Portfolio</a></li>
+<li id="menu-item-29747" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-29747"><a>Services</a>
+<ul class="sub-menu">
+<li id="menu-item-29743" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29743"><a href="../services/branding/index.html">Branding</a></li>
+<li id="menu-item-29745" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29745"><a href="../services/ui-ux-design/index.html">UI UX Design</a></li>
+<li id="menu-item-29746" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29746"><a href="../services/web-development/index.html">Web Development</a></li>
+<li id="menu-item-29744" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29744"><a href="../services/product-photography/index.html">Product Photography</a></li>
+<li id="menu-item-29749" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29749"><a href="../services/packaging-design/index.html">Packaging</a></li>
+</ul>
+</li>
+<li id="menu-item-12493" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12493"><a href="../creative-studio/index.html">Creative Studio</a></li>
+<li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="../awards/index.html">Awards</a></li>
+<li id="menu-item-12996" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12996"><a href="../blog/index.html">Blog</a></li>
+<li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="../contact-us/index.html">Contact Us</a></li>
+</ul></div>
+<div class="jkit-nav-identity-panel">
+<div class="jkit-nav-site-title"><a href="../index.html" class="jkit-nav-logo" aria-label="Home Link"></a></div>
+<button aria-label="close-menu" class="jkit-close-menu"><i aria-hidden="true" class="fas fa-times"></i></button>
+</div>
+</div>
+<div class="jkit-overlay"></div></div> </div>
+</div>
+<div class="elementor-element elementor-element-2e93dbb elementor-hidden-desktop elementor-widget elementor-widget-ucaddon_fullscreen_navigation_menu" data-id="2e93dbb" data-element_type="widget" data-widget_type="ucaddon_fullscreen_navigation_menu.default">
+<div class="elementor-widget-container">
+
+<style>/* widget: Fullscreen Menu */
+
+.elementor-sticky{
+	overflow: visible !important;
+}
+
+
+  body.menu-opened{
+  	overflow: hidden;
+  }	 
+	
+
+
+#uc_fullscreen_navigation_menu_elementor_2e93dbb * {
+  box-sizing: border-box;
+}
+#uc_fullscreen_navigation_menu_elementor_2e93dbb a,
+#uc_fullscreen_navigation_menu_elementor_2e93dbb a:visited,
+#uc_fullscreen_navigation_menu_elementor_2e93dbb a:hover,
+#uc_fullscreen_navigation_menu_elementor_2e93dbb a:active {
+  text-decoration: none;
+}
+
+
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue-input-wrapper
+{
+  position:relative;
+  
+}
+
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue-input-wrapper-align{
+  display:flex;
+}
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_hamburger *{
+  transition: all 200ms;
+}
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_hamburger_custom_open svg
+{
+  height:1em;
+  width:1em;
+}
+
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_hamburger_custom_close svg
+{
+  height:1em;
+  width:1em;
+}
+
+
+#uc_fullscreen_navigation_menu_elementor_2e93dbb
+{
+  position:relative;
+  z-index:99998;
+}
+
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .checkbox-toggle {
+  position: absolute;
+  z-index: 100000000;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  opacity: 0;
+  top:0px;
+}
+
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .checkbox-toggle:checked + .ue_hamburger > div:after {
+  opacity: 0;
+}
+#uc_fullscreen_navigation_menu_elementor_2e93dbb.menu-opened .ue_menu {
+  pointer-events: auto;
+}
+#uc_fullscreen_navigation_menu_elementor_2e93dbb.menu-opened .ue_menu > div.ue_inner_menu {
+      visibility: visible;
+  -webkit-transition-duration: 0.75s;
+          transition-duration: 0.75s;
+}
+#uc_fullscreen_navigation_menu_elementor_2e93dbb.menu-opened .ue_menu > div.ue_inner_menu > div > div {
+  opacity: 1;
+  transition: opacity 0.4s ease 0.4s;
+}
+
+/* start open transition animations */
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_menu .ue_inner_menu {
+transform: translate(0, -100%);
+  opacity: 0;
+}
+#uc_fullscreen_navigation_menu_elementor_2e93dbb.menu-opened .ue_menu > div.ue_inner_menu {
+  opacity: 1;
+  transition: opacity .7s ease, transform .7s ease;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+	
+
+	
+
+	
+/* end open transition animations */
+
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_hamburger {
+  top: 0;
+  cursor: pointer;
+  transition: 0.4s;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:absolute;
+  z-index:99999999;
+}
+
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .checkbox-toggle:checked + .ue_hamburger > div {
+          transform: rotate(135deg);
+}
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .checkbox-toggle:checked + .ue_hamburger > div:before,
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .checkbox-toggle:checked + .ue_hamburger > div:after {
+  top: 0;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .checkbox-toggle:checked:hover + .ue_hamburger > div {
+          transform: rotate(225deg);
+}
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_hamburger > div {
+  position: relative;
+  -webkit-box-flex: 0;
+          flex: none;
+  width: 100%;
+  height: 2px;
+  transition: all 0.4s ease;
+  display: flex;
+          align-items: center;
+          justify-content: center;
+  background-color:#ffffff;
+}
+
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .checkbox-toggle:checked + .ue_hamburger > div {
+          color:#ffffff;
+          background-color:;
+}
+
+#uc_fullscreen_navigation_menu_elementor_2e93dbb input:hover + .ue_hamburger > div
+{
+  background-color:#ffffff;
+}
+
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_hamburger > div:before,
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_hamburger > div:after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: inherit;
+}
+	
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_hamburger > div:after {
+  top: 10px;
+}
+
+
+
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  visibility: hidden;       
+  backface-visibility: hidden;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* start protection from doubled fixed section in elementor */
+.elementor-sticky #uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_menu{
+  opacity: 0;
+   pointer-events: none;
+}
+.elementor-sticky--active #uc_fullscreen_navigation_menu_elementor_2e93dbb.menu-opened .ue_menu{
+	opacity: 1;
+   pointer-events: all;
+}
+/* end protection from doubled fixed section in elementor */
+
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_menu .ue_inner_menu {
+  color: #fff;
+  transition: all 0.4s ease;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+}
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_inner_menu-box{
+    margin-top: auto;
+  	
+  margin-bottom: auto;
+  width: 100vw;
+  flex: none;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_menu > div > div > div {
+  max-width: 90vw;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease;
+  transition: opacity 0.4s ease;
+  overflow-y: auto;
+  flex: none;
+  display: flex;
+  align-items: center;
+}
+#uc_fullscreen_navigation_menu_elementor_2e93dbb ul:not(#uc_fullscreen_navigation_menu_elementor_2e93dbb section ul) {
+  list-style: none;
+  margin: 0;
+  display: block;
+  padding:0px;
+}
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_menu  div  div  ul li {
+  padding: 0;
+  display: block;
+}
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_menu  div  div  ul  li a {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  transition: color 0.4s ease;
+}
+
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_menu  div  div  ul  li  a:hover {
+}
+
+
+
+
+	
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_menu  div  div  ul  li a:hover:after {
+  width: 100%;
+}
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_menu  div  div  ul  li  a:after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  bottom: -0.15em;
+  left: 0;
+  width: 0;
+  height: 2px;
+  transition: width 0.4s ease;
+}
+
+	
+
+
+
+.ue_menu_wrapper
+{
+  position:relative;
+}
+
+
+
+
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_menu-social-icons a
+{
+  display:inline-block;
+  line-height:1em;
+}
+
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_menu-social-icons a svg
+{
+  height:1em;
+  width:1em;
+}
+
+#uc_fullscreen_navigation_menu_elementor_2e93dbb .sub-menu
+{
+transition: 0.5s;
+overflow: hidden;
+height: auto;
+}
+
+
+
+</style>
+<div class="outer-menu" id="uc_fullscreen_navigation_menu_elementor_2e93dbb">
+<div class="ue_menu_wrapper">
+<div class="ue-input-wrapper-align">
+<div class="ue-input-wrapper">
+<input id="uc_fullscreen_navigation_menu_elementor_2e93dbb_input" name="fullscreen_menu_input" class="checkbox-toggle" type="checkbox" />
+<div class="ue_hamburger">
+<div>
+</div>
+</div>
+</div>
+</div>
+<div class="ue_menu">
+<div class="ue_inner_menu" data-closeothers="yes" data-clickable="false" data-icon-position="end" data-icon-source data-expand>
+<div class="ue_inner_menu-box">
+<div></div>
+<div>
+<ul id="menu-main-menu-mobile" class="uc-list-menu"><li id="menu-item-12478" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12478"><a href="../about-us/index.html">About Us</a></li>
+<li id="menu-item-12484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12484"><a href="../portfolio/index.html">Portfolio</a></li>
+<li id="menu-item-29761" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-29761"><a>Services</a>
+<ul class="sub-menu">
+<li id="menu-item-29760" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29760"><a href="../services/branding/index.html">Branding</a></li>
+<li id="menu-item-29758" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29758"><a href="../services/ui-ux-design/index.html">UI UX Design</a></li>
+<li id="menu-item-29759" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29759"><a href="../services/web-development/index.html">Web Development</a></li>
+<li id="menu-item-29757" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29757"><a href="../services/product-photography/index.html">Product Photography</a></li>
+<li id="menu-item-29756" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29756"><a href="../services/packaging-design/index.html">Packaging</a></li>
+</ul>
+</li>
+<li id="menu-item-12483" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12483"><a href="../creative-studio/index.html">Creative Studio</a></li>
+<li id="menu-item-12479" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12479"><a href="../awards/index.html">Awards</a></li>
+<li id="menu-item-12997" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12997"><a href="../blog/index.html">Blog</a></li>
+<li id="menu-item-12482" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12482"><a href="../contact-us/index.html">Contact Us</a></li>
+</ul>
+</div>
+<div class="ue_menu-social-icons">
+<a class href="https://dotme.bio/brandemic">
+<svg xmlns="http://www.w3.org/2000/svg" width="687" height="692" viewBox="0 0 687 692" fill="none"><path d="M539.942 104.743C525.003 94.5258 507.381 87.9746 489.393 87.9746C482.929 87.9746 476.405 88.816 469.941 90.6792C445.49 97.1703 421.831 117.665 405.002 148.738C385.123 182.756 384.148 223.566 398.355 251.634C412.075 279.702 440.307 295.629 475.307 295.629C476.1 295.629 476.832 295.629 477.624 295.629C528.6 295.389 568.967 251.273 577.808 212.327C586.04 175.845 570.491 126.5 540.003 104.803L539.942 104.743Z" fill="white"></path><path d="M577.812 212.301C569.275 249.985 531.165 292.538 482.506 295.423C487.994 291.817 495.128 286.528 502.445 279.195C506.896 274.748 518.116 262.847 526.043 246.56C544.824 207.914 533.116 168.787 531.958 165C528.726 154.663 520.189 128.939 494.152 111.028C479.579 100.991 465.189 97.3248 456.347 95.7622C460.859 93.5985 465.372 91.9156 469.945 90.6534C494.396 83.7416 519.58 90.8337 539.946 104.717C570.495 126.414 586.044 175.759 577.751 212.241L577.812 212.301Z" fill="white" fill-opacity="0.56"></path><path d="M380.736 260.364C362.748 224.964 365.553 177.483 387.748 139.318C398.785 118.943 412.565 102.415 428.053 90.4544C402.26 39.3672 343.662 17.3095 233.539 11.6599L3.23174 0L0 383.635L230.978 361.457C324.028 352.502 380.553 333.509 411.833 296.426C398.602 287.29 387.87 275.09 380.736 260.364ZM225.551 241.192L217.136 241.612L217.929 131.985H226.344C253.905 131.985 261.527 143.825 261.222 185.777C260.917 227.729 253.112 239.93 225.551 241.192Z" fill="white"></path><path d="M684.946 161.506L685.311 74.0569L650.982 72.8549L651.104 43.4046L550.493 38.2959L550.249 88.2411C550.249 88.2411 550.859 88.6619 551.164 88.8422L551.347 88.9624L551.53 89.0826C587.445 114.626 607.445 170.642 597.079 216.62C591.957 239.038 578.908 261.877 560.249 279.908C573.176 305.512 598.481 314.107 639.884 309.96C656.47 308.337 666.897 305.452 684.336 298.3L684.824 193.361C677.628 197.207 670.982 198.95 664.519 199.191C653.787 199.551 650.433 195.644 650.433 184.946L650.555 162.107L684.946 161.506Z" fill="white"></path><path d="M327.288 648.168L211.128 636.07V499.605L202.495 499.718L185.876 633.47L100.429 624.595L86.5697 500.905H79.6401V622.39L3.2373 614.476V403.56L127.737 389.879L135.019 508.989H142.712L150.229 387.392L327.347 367.889V648.168H327.288Z" fill="white"></path><path d="M686.49 482.896C686.49 499.965 684.082 523.413 681.028 531.859L495.058 529.732C497.467 548.219 514.853 554.361 560.67 555.601C597.911 556.665 626.165 553.83 665.462 545.856L671.394 689.673C628.397 693.334 582.756 692.685 534.59 687.133C395.084 671.127 344.861 623.759 344.861 523.649C344.861 423.539 390.561 381.014 506.043 369.969C625.049 358.57 686.432 393.712 686.432 482.778L686.49 482.896ZM493.59 492.937L534.59 492.405C534.061 461.397 529.597 452.833 513.796 453.483C498.348 454.074 494.06 462.756 493.59 492.937Z" fill="white"></path></svg>
+</a>
+<a class href="https://www.facebook.com/Brandemic-114674026917466">
+<i class="fab fa-facebook"></i>
+</a>
+<a class href="https://youtube.com/@Brandemic_Design">
+<i class="fab fa-youtube"></i>
+</a>
+<a class href="https://www.instagram.com/brandemic_design/">
+<i class="fab fa-instagram"></i>
+</a>
+<a class href="https://www.behance.net/brandemic">
+<i class="fab fa-behance"></i>
+</a>
+<a class href="https://www.linkedin.com/company/brandemi-design/">
+<i class="fab fa-linkedin"></i>
+</a>
+<a class href="https://twitter.com/brandemicglobal">
+<svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg>
+</a>
+</div>
+<div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+ </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div data-elementor-type="archive" data-elementor-id="16728" class="elementor elementor-16728 elementor-location-archive" data-elementor-post-type="elementor_library">
+<section class="elementor-section elementor-top-section elementor-element elementor-element-db6975f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="db6975f" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c0b4aea" data-id="c0b4aea" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-9757cd1 animated-slow elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9757cd1" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;none&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2a3b22f" data-id="2a3b22f" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-7002339 elementor-widget elementor-widget-heading" data-id="7002339" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h1 class="elementor-heading-title elementor-size-default">Hocus Pocus!</h1> </div>
+</div>
+<div class="elementor-element elementor-element-476c0a3 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="476c0a3" data-element_type="widget" data-widget_type="divider.default">
+<div class="elementor-widget-container">
+<div class="elementor-divider">
+<span class="elementor-divider-separator">
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-0fcc567" data-id="0fcc567" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-31c736f elementor-widget elementor-widget-text-editor" data-id="31c736f" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<p>A good magician never reveals their secrets, but for you, we’ll make an exception. Stop in to read our latest spells, stories, and industry insights.</p> </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-b9f8e5a elementor-hidden-desktop elementor-hidden-tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b9f8e5a" data-element_type="section" data-settings="{&quot;sticky_on&quot;:[&quot;mobile&quot;],&quot;sticky_offset_mobile&quot;:75,&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-69cf4aa" data-id="69cf4aa" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-e1c2186 elementor-section-content-middle elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="e1c2186" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-container elementor-column-gap-no">
+<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-ba0ce66" data-id="ba0ce66" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-e1d8d37 elementor-nav-menu--dropdown-mobile elementor-nav-menu__text-align-aside elementor-widget elementor-widget-nav-menu" data-id="e1d8d37" data-element_type="widget" data-settings="{&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-chevron-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;layout&quot;:&quot;horizontal&quot;}" data-widget_type="nav-menu.default">
+<div class="elementor-widget-container">
+<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
+<ul id="menu-1-e1d8d37" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-16761"><a class="elementor-item">Choose Category</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25281"><a href="../blog/index.html" class="elementor-sub-item">All</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16757"><a href="../ui-ux/index.html" class="elementor-sub-item">UI/UX</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16758"><a href="../branding/index.html" class="elementor-sub-item">Branding</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-16759"><a href="index.html" aria-current="page" class="elementor-sub-item elementor-item-active">Videography &amp; Photography</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-21193"><a href="../website-development/index.html" class="elementor-sub-item">Website Development</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-21194"><a href="../design/index.html" class="elementor-sub-item">Design</a></li>
+</ul>
+</li>
+</ul> </nav>
+<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+<ul id="menu-2-e1d8d37" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-16761"><a class="elementor-item" tabindex="-1">Choose Category</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25281"><a href="../blog/index.html" class="elementor-sub-item" tabindex="-1">All</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16757"><a href="../ui-ux/index.html" class="elementor-sub-item" tabindex="-1">UI/UX</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16758"><a href="../branding/index.html" class="elementor-sub-item" tabindex="-1">Branding</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-16759"><a href="index.html" aria-current="page" class="elementor-sub-item elementor-item-active" tabindex="-1">Videography &amp; Photography</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-21193"><a href="../website-development/index.html" class="elementor-sub-item" tabindex="-1">Website Development</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-21194"><a href="../design/index.html" class="elementor-sub-item" tabindex="-1">Design</a></li>
+</ul>
+</li>
+</ul> </nav>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</section>
+<div class="elementor-element elementor-element-421dad9 elementor-hidden-mobile e-flex e-con-boxed e-con e-parent" data-id="421dad9" data-element_type="container">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-dcca213 elementor-nav-menu__align-center elementor-nav-menu--dropdown-none sticky elementor-widget elementor-widget-nav-menu" data-id="dcca213" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+<div class="elementor-widget-container">
+<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
+<ul id="menu-1-dcca213" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25279"><a href="../blog/index.html" class="elementor-item">All</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16681"><a href="../branding/index.html" class="elementor-item">Branding</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16680"><a href="../ui-ux/index.html" class="elementor-item">UI/UX</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-16682"><a href="index.html" aria-current="page" class="elementor-item elementor-item-active">Videography &amp; Photography</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-21196"><a href="../website-development/index.html" class="elementor-item">Website Development</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-21197"><a href="../design/index.html" class="elementor-item">Design</a></li>
+</ul> </nav>
+<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+<ul id="menu-2-dcca213" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25279"><a href="../blog/index.html" class="elementor-item" tabindex="-1">All</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16681"><a href="../branding/index.html" class="elementor-item" tabindex="-1">Branding</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16680"><a href="../ui-ux/index.html" class="elementor-item" tabindex="-1">UI/UX</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-16682"><a href="index.html" aria-current="page" class="elementor-item elementor-item-active" tabindex="-1">Videography &amp; Photography</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-21196"><a href="../website-development/index.html" class="elementor-item" tabindex="-1">Website Development</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-21197"><a href="../design/index.html" class="elementor-item" tabindex="-1">Design</a></li>
+</ul> </nav>
+</div>
+</div>
+</div>
+</div>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-eeab22e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="eeab22e" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5f8e3ba" data-id="5f8e3ba" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-b851a21 elementor-grid-2 elementor-posts--thumbnail-top elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-posts" data-id="b851a21" data-element_type="widget" data-settings="{&quot;custom_columns&quot;:&quot;2&quot;,&quot;custom_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;custom_columns_tablet&quot;:&quot;2&quot;,&quot;custom_columns_mobile&quot;:&quot;1&quot;,&quot;custom_row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;custom_row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="posts.custom">
+<div class="elementor-widget-container">
+<div class="ecs-posts elementor-posts-container elementor-posts   elementor-grid elementor-posts--skin-custom" data-settings="{&quot;current_page&quot;:1,&quot;max_num_pages&quot;:1,&quot;load_method&quot;:&quot;lazyload&quot;,&quot;widget_id&quot;:&quot;b851a21&quot;,&quot;post_id&quot;:18330,&quot;theme_id&quot;:16728,&quot;change_url&quot;:false,&quot;reinit_js&quot;:false}">
+<article id="post-18330" class="elementor-post elementor-grid-item ecs-post-loop post-18330 post type-post status-publish format-standard has-post-thumbnail hentry category-all category-videography-photography">
+<div data-elementor-type="loop" data-elementor-id="2082" class="elementor elementor-2082 elementor-location-archive post-18330 post type-post status-publish format-standard has-post-thumbnail hentry category-all category-videography-photography" data-elementor-post-type="elementor_library">
+<section class="elementor-section elementor-top-section elementor-element elementor-element-dbfeea0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="dbfeea0" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3522d9d" data-id="3522d9d" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-ab451c2 elementor-widget elementor-widget-image" data-id="ab451c2" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<a href="../power-of-brand-photography-for-success/index.html">
+<img fetchpriority="high" width="1359" height="906" src="../wp-content/uploads/2023/07/Brand-Photography.webp" class="attachment-full size-full wp-image-18339" alt="Brand Photography: Importance, Visual Branding, Types, Platforms - Brandemic" decoding="async" srcset="../wp-content/uploads/2023/07/Brand-Photography.webp 1359w, ../wp-content/uploads/2023/07/Brand-Photography-300x200.webp 300w, ../wp-content/uploads/2023/07/Brand-Photography-1024x683.webp 1024w, ../wp-content/uploads/2023/07/Brand-Photography-150x100.webp 150w, ../wp-content/uploads/2023/07/Brand-Photography-768x512.webp 768w" sizes="(max-width: 1359px) 100vw, 1359px" /> </a>
+</div>
+</div>
+<div class="elementor-element elementor-element-52970ec elementor-widget elementor-widget-heading" data-id="52970ec" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default"><a href="../power-of-brand-photography-for-success/index.html">Harnessing the Power of Brand Photography for Success</a></h2> </div>
+</div>
+<div class="elementor-element elementor-element-07fd352 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="07fd352" data-element_type="widget" data-widget_type="divider.default">
+<div class="elementor-widget-container">
+<div class="elementor-divider">
+<span class="elementor-divider-separator">
+</span>
+</div>
+</div>
+</div>
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-d07f6ba elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d07f6ba" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-0685754" data-id="0685754" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-b20fee4 elementor-widget elementor-widget-button" data-id="b20fee4" data-element_type="widget" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm" href="../power-of-brand-photography-for-success/index.html">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M11 1L2.42857 1M11 1L11 9.57143M11 1L1 11" stroke="#3EE595" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg> </span>
+<span class="elementor-button-text">READ MORE</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-93c7e19" data-id="93c7e19" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</section>
+</div>
+</article>
+<article id="post-18675" class="elementor-post elementor-grid-item ecs-post-loop post-18675 post type-post status-publish format-standard has-post-thumbnail hentry category-all category-videography-photography">
+<div data-elementor-type="loop" data-elementor-id="2082" class="elementor elementor-2082 elementor-location-archive post-18675 post type-post status-publish format-standard has-post-thumbnail hentry category-all category-videography-photography" data-elementor-post-type="elementor_library">
+<section class="elementor-section elementor-top-section elementor-element elementor-element-dbfeea0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="dbfeea0" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3522d9d" data-id="3522d9d" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-ab451c2 elementor-widget elementor-widget-image" data-id="ab451c2" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<a href="../how-brand-films-speak-volumes/index.html">
+<img loading="lazy" width="2000" height="2000" src="../wp-content/uploads/2024/05/The-Artistry-of-Brand-Films-From-Concept-to-Creation.webp" class="attachment-full size-full wp-image-27203" alt="The-Artistry-of-Brand-Films-From-Concept-to-Creation" decoding="async" srcset="../wp-content/uploads/2024/05/The-Artistry-of-Brand-Films-From-Concept-to-Creation.webp 2000w, ../wp-content/uploads/2024/05/The-Artistry-of-Brand-Films-From-Concept-to-Creation-300x300.webp 300w, ../wp-content/uploads/2024/05/The-Artistry-of-Brand-Films-From-Concept-to-Creation-1024x1024.webp 1024w, ../wp-content/uploads/2024/05/The-Artistry-of-Brand-Films-From-Concept-to-Creation-150x150.webp 150w, ../wp-content/uploads/2024/05/The-Artistry-of-Brand-Films-From-Concept-to-Creation-768x768.webp 768w, ../wp-content/uploads/2024/05/The-Artistry-of-Brand-Films-From-Concept-to-Creation-1536x1536.webp 1536w" sizes="(max-width: 2000px) 100vw, 2000px" /> </a>
+</div>
+</div>
+<div class="elementor-element elementor-element-52970ec elementor-widget elementor-widget-heading" data-id="52970ec" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default"><a href="../how-brand-films-speak-volumes/index.html">The Artistry of Brand Films: From Concept to Creation</a></h2> </div>
+</div>
+<div class="elementor-element elementor-element-07fd352 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="07fd352" data-element_type="widget" data-widget_type="divider.default">
+<div class="elementor-widget-container">
+<div class="elementor-divider">
+<span class="elementor-divider-separator">
+</span>
+</div>
+</div>
+</div>
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-d07f6ba elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d07f6ba" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-0685754" data-id="0685754" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-b20fee4 elementor-widget elementor-widget-button" data-id="b20fee4" data-element_type="widget" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm" href="../how-brand-films-speak-volumes/index.html">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M11 1L2.42857 1M11 1L11 9.57143M11 1L1 11" stroke="#3EE595" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg> </span>
+<span class="elementor-button-text">READ MORE</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-93c7e19" data-id="93c7e19" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</section>
+</div>
+</article>
+<article id="post-22035" class="elementor-post elementor-grid-item ecs-post-loop post-22035 post type-post status-publish format-standard has-post-thumbnail hentry category-all category-videography-photography">
+<div data-elementor-type="loop" data-elementor-id="2082" class="elementor elementor-2082 elementor-location-archive post-22035 post type-post status-publish format-standard has-post-thumbnail hentry category-all category-videography-photography" data-elementor-post-type="elementor_library">
+<section class="elementor-section elementor-top-section elementor-element elementor-element-dbfeea0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="dbfeea0" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3522d9d" data-id="3522d9d" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-ab451c2 elementor-widget elementor-widget-image" data-id="ab451c2" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<a href="../unraveling-the-magic-of-video-production-companies/index.html">
+<img loading="lazy" width="509" height="339" src="../wp-content/uploads/2023/12/Video-Production-Companies-Brandemic-1.webp" class="attachment-full size-full wp-image-22044" alt="Video-Production-Companies-Brandemic" decoding="async" srcset="../wp-content/uploads/2023/12/Video-Production-Companies-Brandemic-1.webp 509w, ../wp-content/uploads/2023/12/Video-Production-Companies-Brandemic-1-300x200.webp 300w, ../wp-content/uploads/2023/12/Video-Production-Companies-Brandemic-1-150x100.webp 150w" sizes="(max-width: 509px) 100vw, 509px" /> </a>
+</div>
+</div>
+<div class="elementor-element elementor-element-52970ec elementor-widget elementor-widget-heading" data-id="52970ec" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default"><a href="../unraveling-the-magic-of-video-production-companies/index.html">From Script to Screen: Unraveling the Magic of Video Production Companies in Bangalore, India</a></h2> </div>
+</div>
+<div class="elementor-element elementor-element-07fd352 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="07fd352" data-element_type="widget" data-widget_type="divider.default">
+<div class="elementor-widget-container">
+<div class="elementor-divider">
+<span class="elementor-divider-separator">
+</span>
+</div>
+</div>
+</div>
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-d07f6ba elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d07f6ba" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-0685754" data-id="0685754" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-b20fee4 elementor-widget elementor-widget-button" data-id="b20fee4" data-element_type="widget" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm" href="../unraveling-the-magic-of-video-production-companies/index.html">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M11 1L2.42857 1M11 1L11 9.57143M11 1L1 11" stroke="#3EE595" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg> </span>
+<span class="elementor-button-text">READ MORE</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-93c7e19" data-id="93c7e19" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</section>
+</div>
+</article>
+<article id="post-18974" class="elementor-post elementor-grid-item ecs-post-loop post-18974 post type-post status-publish format-standard has-post-thumbnail hentry category-all category-videography-photography">
+<div data-elementor-type="loop" data-elementor-id="2082" class="elementor elementor-2082 elementor-location-archive post-18974 post type-post status-publish format-standard has-post-thumbnail hentry category-all category-videography-photography" data-elementor-post-type="elementor_library">
+<section class="elementor-section elementor-top-section elementor-element elementor-element-dbfeea0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="dbfeea0" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3522d9d" data-id="3522d9d" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-ab451c2 elementor-widget elementor-widget-image" data-id="ab451c2" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<a href="../unveiling-the-magic-of-visual-content-marketing/index.html">
+<img loading="lazy" width="2560" height="1933" src="../wp-content/uploads/2022/12/brandemic-creative-studio-2-scaled.webp" class="attachment-full size-full wp-image-8815" alt="Unveiling The Magic Of Visual Content Marketing: From Photos To Viral Videos - Brandemic" decoding="async" srcset="../wp-content/uploads/2022/12/brandemic-creative-studio-2-scaled.webp 2560w, ../wp-content/uploads/2022/12/brandemic-creative-studio-2-300x226.webp 300w, ../wp-content/uploads/2022/12/brandemic-creative-studio-2-1024x773.webp 1024w, ../wp-content/uploads/2022/12/brandemic-creative-studio-2-150x113.webp 150w, ../wp-content/uploads/2022/12/brandemic-creative-studio-2-768x580.webp 768w, ../wp-content/uploads/2022/12/brandemic-creative-studio-2-1536x1160.webp 1536w, ../wp-content/uploads/2022/12/brandemic-creative-studio-2-2048x1546.webp 2048w" sizes="(max-width: 2560px) 100vw, 2560px" /> </a>
+</div>
+</div>
+<div class="elementor-element elementor-element-52970ec elementor-widget elementor-widget-heading" data-id="52970ec" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default"><a href="../unveiling-the-magic-of-visual-content-marketing/index.html">Lights, Camera, Engagement: The Power of Visual Content Marketing</a></h2> </div>
+</div>
+<div class="elementor-element elementor-element-07fd352 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="07fd352" data-element_type="widget" data-widget_type="divider.default">
+<div class="elementor-widget-container">
+<div class="elementor-divider">
+<span class="elementor-divider-separator">
+</span>
+</div>
+</div>
+</div>
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-d07f6ba elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d07f6ba" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-0685754" data-id="0685754" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-b20fee4 elementor-widget elementor-widget-button" data-id="b20fee4" data-element_type="widget" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm" href="../unveiling-the-magic-of-visual-content-marketing/index.html">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M11 1L2.42857 1M11 1L11 9.57143M11 1L1 11" stroke="#3EE595" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg> </span>
+<span class="elementor-button-text">READ MORE</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-93c7e19" data-id="93c7e19" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-d2071cb elementor-widget elementor-widget-heading" data-id="d2071cb" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default">15 mins read</h2> </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</section>
+</div>
+</article>
+<article id="post-17652" class="elementor-post elementor-grid-item ecs-post-loop post-17652 post type-post status-publish format-standard has-post-thumbnail hentry category-all category-videography-photography">
+<div data-elementor-type="loop" data-elementor-id="2082" class="elementor elementor-2082 elementor-location-archive post-17652 post type-post status-publish format-standard has-post-thumbnail hentry category-all category-videography-photography" data-elementor-post-type="elementor_library">
+<section class="elementor-section elementor-top-section elementor-element elementor-element-dbfeea0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="dbfeea0" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3522d9d" data-id="3522d9d" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-ab451c2 elementor-widget elementor-widget-image" data-id="ab451c2" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<a href="../videography-tips-and-techniques-equipments-techniques-editing-and-essentials/index.html">
+<img loading="lazy" width="2023" height="1348" src="../wp-content/uploads/2023/06/Videography-Tips-And-Techniques.webp" class="attachment-full size-full wp-image-17670" alt="Videography Tips And Techniques: Equipments, Techniques, Editing And Essentials - Brandemic" decoding="async" srcset="../wp-content/uploads/2023/06/Videography-Tips-And-Techniques.webp 2023w, ../wp-content/uploads/2023/06/Videography-Tips-And-Techniques-300x200.webp 300w, ../wp-content/uploads/2023/06/Videography-Tips-And-Techniques-1024x682.webp 1024w, ../wp-content/uploads/2023/06/Videography-Tips-And-Techniques-150x100.webp 150w, ../wp-content/uploads/2023/06/Videography-Tips-And-Techniques-768x512.webp 768w, ../wp-content/uploads/2023/06/Videography-Tips-And-Techniques-1536x1023.webp 1536w" sizes="(max-width: 2023px) 100vw, 2023px" /> </a>
+</div>
+</div>
+<div class="elementor-element elementor-element-52970ec elementor-widget elementor-widget-heading" data-id="52970ec" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default"><a href="../videography-tips-and-techniques-equipments-techniques-editing-and-essentials/index.html">Videography Tips And Techniques: Equipments, Techniques, Editing And Essentials</a></h2> </div>
+</div>
+<div class="elementor-element elementor-element-07fd352 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="07fd352" data-element_type="widget" data-widget_type="divider.default">
+<div class="elementor-widget-container">
+<div class="elementor-divider">
+<span class="elementor-divider-separator">
+</span>
+</div>
+</div>
+</div>
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-d07f6ba elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d07f6ba" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-0685754" data-id="0685754" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-b20fee4 elementor-widget elementor-widget-button" data-id="b20fee4" data-element_type="widget" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm" href="../videography-tips-and-techniques-equipments-techniques-editing-and-essentials/index.html">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M11 1L2.42857 1M11 1L11 9.57143M11 1L1 11" stroke="#3EE595" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg> </span>
+<span class="elementor-button-text">READ MORE</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-93c7e19" data-id="93c7e19" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-d2071cb elementor-widget elementor-widget-heading" data-id="d2071cb" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default">30 mins read</h2> </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</section>
+</div>
+</article>
+<article id="post-16784" class="elementor-post elementor-grid-item ecs-post-loop post-16784 post type-post status-publish format-standard has-post-thumbnail hentry category-all category-videography-photography">
+<div data-elementor-type="loop" data-elementor-id="2082" class="elementor elementor-2082 elementor-location-archive post-16784 post type-post status-publish format-standard has-post-thumbnail hentry category-all category-videography-photography" data-elementor-post-type="elementor_library">
+<section class="elementor-section elementor-top-section elementor-element elementor-element-dbfeea0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="dbfeea0" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3522d9d" data-id="3522d9d" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-ab451c2 elementor-widget elementor-widget-image" data-id="ab451c2" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<a href="../photography-tips-techniques-equipments-framing-lighting-editing/index.html">
+<img loading="lazy" width="856" height="570" src="../wp-content/uploads/2023/06/Photography-and-Videography.webp" class="attachment-full size-full wp-image-16570" alt="Photography And Videography: Importance, Difference, Visual Content, And Tips - Brandemic" decoding="async" srcset="../wp-content/uploads/2023/06/Photography-and-Videography.webp 856w, ../wp-content/uploads/2023/06/Photography-and-Videography-300x200.webp 300w, ../wp-content/uploads/2023/06/Photography-and-Videography-150x100.webp 150w, ../wp-content/uploads/2023/06/Photography-and-Videography-768x511.webp 768w" sizes="(max-width: 856px) 100vw, 856px" /> </a>
+</div>
+</div>
+<div class="elementor-element elementor-element-52970ec elementor-widget elementor-widget-heading" data-id="52970ec" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default"><a href="../photography-tips-techniques-equipments-framing-lighting-editing/index.html">Photography and Videography: Importance, Difference, Visual Content and Tips</a></h2> </div>
+</div>
+<div class="elementor-element elementor-element-07fd352 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="07fd352" data-element_type="widget" data-widget_type="divider.default">
+<div class="elementor-widget-container">
+<div class="elementor-divider">
+<span class="elementor-divider-separator">
+</span>
+</div>
+</div>
+</div>
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-d07f6ba elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d07f6ba" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-0685754" data-id="0685754" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-b20fee4 elementor-widget elementor-widget-button" data-id="b20fee4" data-element_type="widget" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm" href="../photography-tips-techniques-equipments-framing-lighting-editing/index.html">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M11 1L2.42857 1M11 1L11 9.57143M11 1L1 11" stroke="#3EE595" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg> </span>
+<span class="elementor-button-text">READ MORE</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-93c7e19" data-id="93c7e19" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-d2071cb elementor-widget elementor-widget-heading" data-id="d2071cb" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default">15 mins read</h2> </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</section>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div data-elementor-type="footer" data-elementor-id="228" class="elementor elementor-228 elementor-location-footer" data-elementor-post-type="elementor_library">
+<section class="elementor-section elementor-top-section elementor-element elementor-element-94d50be elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="94d50be" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a756138" data-id="a756138" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-abf6e02 elementor-widget elementor-widget-image" data-id="abf6e02" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<a href="../index.html">
+<img fetchpriority="high" width="494" height="115" src="../wp-content/uploads/2022/09/logo-white.png" class="attachment-full size-full wp-image-22421" alt="brandemic logo" decoding="async" /> </a>
+</div>
+</div>
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-5da2dda elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5da2dda" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-01d528b" data-id="01d528b" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-0cabe4b elementor-widget elementor-widget-heading" data-id="0cabe4b" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h3 class="elementor-heading-title elementor-size-default">FIND US</h3> </div>
+</div>
+<div class="elementor-element elementor-element-b1c2f77 elementor-widget elementor-widget-heading" data-id="b1c2f77" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<p class="elementor-heading-title elementor-size-default"><a href="https://goo.gl/maps/nhdTrLJ8vCb9fyhz6">49, 1st Cross Rd, 5th Block,<br>
+Koramangala, Bengaluru - 560095</a></p> </div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-cba2c7a" data-id="cba2c7a" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-69911c1 elementor-widget elementor-widget-heading" data-id="69911c1" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h3 class="elementor-heading-title elementor-size-default">CONNECT</h3> </div>
+</div>
+<div class="elementor-element elementor-element-7b2213b elementor-widget elementor-widget-heading" data-id="7b2213b" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h3 class="elementor-heading-title elementor-size-default"><a href="../cdn-cgi/l/email-protection.html#cfa6a1a9a08fadbdaea1abaaa2a6ace1a6a1"><span class="__cf_email__" data-cfemail="365f585059765444575852535b5f55185f58">[email&#160;protected]</span></a></h3> </div>
+</div>
+<div class="elementor-element elementor-element-b07a8c3 elementor-widget elementor-widget-heading" data-id="b07a8c3" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h3 class="elementor-heading-title elementor-size-default"><a href="tel:+91%2090087%2058448">+91 90087 58448</a></h3> </div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-52fcaa8" data-id="52fcaa8" data-element_type="column">
+<div class="elementor-widget-wrap">
+</div>
+</div>
+<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-2a2b14c" data-id="2a2b14c" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-06d73cc elementor-widget elementor-widget-heading" data-id="06d73cc" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h3 class="elementor-heading-title elementor-size-default">STAY UP TO DATE</h3> </div>
+</div>
+<div class="elementor-element elementor-element-e713c89 elementor-widget elementor-widget-form" data-id="e713c89" data-element_type="widget" data-settings="{&quot;button_width&quot;:&quot;20&quot;,&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
+<div class="elementor-widget-container">
+<form class="elementor-form" method="post" name="New Form">
+<input type="hidden" name="post_id" value="228" />
+<input type="hidden" name="form_id" value="e713c89" />
+<input type="hidden" name="referer_title" value="Master Videography &amp; Photography | Brandemic Blog" />
+<div class="elementor-form-fields-wrapper elementor-labels-above">
+<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-70 elementor-field-required">
+<input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-md  elementor-field-textual" placeholder="Subscribe with email" required="required" aria-required="true">
+</div>
+<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons">
+<button class="elementor-button elementor-size-md" type="submit">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none"><circle r="22.5" transform="matrix(1 1.74846e-07 1.74846e-07 -1 22.5 22.5)" fill="white"></circle><path d="M31 22.1429L24.1429 29M31 22.1429L24.1429 15.2857M31 22.1429L15 22.1429" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg> <span class="elementor-screen-only">Submit</span>
+</span>
+</span>
+</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-a8c8029 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a8c8029" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-98e8e21" data-id="98e8e21" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-e7435ff elementor-icon-list--layout-inline elementor-align-left elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="e7435ff" data-element_type="widget" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items elementor-inline-items">
+<li class="elementor-icon-list-item elementor-inline-item">
+<a href="../about-us/index.html">
+<span class="elementor-icon-list-text">About Us</span>
+</a>
+</li>
+<li class="elementor-icon-list-item elementor-inline-item">
+<a href="../portfolio/index.html">
+<span class="elementor-icon-list-text">Portfolio</span>
+</a>
+</li>
+<li class="elementor-icon-list-item elementor-inline-item">
+<a href="../creative-studio/index.html">
+<span class="elementor-icon-list-text">Creative Studio</span>
+</a>
+</li>
+<li class="elementor-icon-list-item elementor-inline-item">
+<a href="../awards/index.html">
+<span class="elementor-icon-list-text">Awards</span>
+</a>
+</li>
+<li class="elementor-icon-list-item elementor-inline-item">
+<a href="../careers/index.html">
+<span class="elementor-icon-list-text">Careers</span>
+</a>
+</li>
+<li class="elementor-icon-list-item elementor-inline-item">
+<a href="../blog/index.html">
+<span class="elementor-icon-list-text">Blog</span>
+</a>
+</li>
+<li class="elementor-icon-list-item elementor-inline-item">
+<a href="../contact-us/index.html">
+<span class="elementor-icon-list-text">Contact Us</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3eb7dfe" data-id="3eb7dfe" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-d563065 elementor-icon-list--layout-inline elementor-align-right elementor-tablet-align-left elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="d563065" data-element_type="widget" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items elementor-inline-items">
+<li class="elementor-icon-list-item elementor-inline-item">
+<a href="../privacy-policy/index.html" target="_blank">
+<span class="elementor-icon-list-text">Privacy Policy</span>
+</a>
+</li>
+<li class="elementor-icon-list-item elementor-inline-item">
+<a href="../terms-of-use/index.html" target="_blank">
+<span class="elementor-icon-list-text">Terms Of Use</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-2142c74 elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2142c74" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-e863b06" data-id="e863b06" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-91ca67b elementor-widget elementor-widget-heading" data-id="91ca67b" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h4 class="elementor-heading-title elementor-size-default">© 2024 Brandemic. All rights reserved. </h4> </div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-bea075d" data-id="bea075d" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-1968e20 elementor-widget elementor-widget-image" data-id="1968e20" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<img loading="lazy" width="800" height="93" src="../wp-content/uploads/2022/09/made-with-passion-by-B.svg" class="attachment-large size-large wp-image-22412" alt="made with passion by B" decoding="async" /> </div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-c544cb0" data-id="c544cb0" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-5d727f4 e-grid-align-right elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="5d727f4" data-element_type="widget" data-widget_type="social-icons.default">
+<div class="elementor-widget-container">
+<div class="elementor-social-icons-wrapper elementor-grid">
+<span class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-DotMe social Icon elementor-repeater-item-e061b09" href="https://dotme.bio/brandemic" target="_blank">
+<span class="elementor-screen-only">DotMe Social Icon</span>
+<svg xmlns="http://www.w3.org/2000/svg" width="687" height="692" viewBox="0 0 687 692" fill="none"><path d="M539.942 104.743C525.003 94.5258 507.381 87.9746 489.393 87.9746C482.929 87.9746 476.405 88.816 469.941 90.6792C445.49 97.1703 421.831 117.665 405.002 148.738C385.123 182.756 384.148 223.566 398.355 251.634C412.075 279.702 440.307 295.629 475.307 295.629C476.1 295.629 476.832 295.629 477.624 295.629C528.6 295.389 568.967 251.273 577.808 212.327C586.04 175.845 570.491 126.5 540.003 104.803L539.942 104.743Z" fill="white"></path><path d="M577.812 212.301C569.275 249.985 531.165 292.538 482.506 295.423C487.994 291.817 495.128 286.528 502.445 279.195C506.896 274.748 518.116 262.847 526.043 246.56C544.824 207.914 533.116 168.787 531.958 165C528.726 154.663 520.189 128.939 494.152 111.028C479.579 100.991 465.189 97.3248 456.347 95.7622C460.859 93.5985 465.372 91.9156 469.945 90.6534C494.396 83.7416 519.58 90.8337 539.946 104.717C570.495 126.414 586.044 175.759 577.751 212.241L577.812 212.301Z" fill="white" fill-opacity="0.56"></path><path d="M380.736 260.364C362.748 224.964 365.553 177.483 387.748 139.318C398.785 118.943 412.565 102.415 428.053 90.4544C402.26 39.3672 343.662 17.3095 233.539 11.6599L3.23174 0L0 383.635L230.978 361.457C324.028 352.502 380.553 333.509 411.833 296.426C398.602 287.29 387.87 275.09 380.736 260.364ZM225.551 241.192L217.136 241.612L217.929 131.985H226.344C253.905 131.985 261.527 143.825 261.222 185.777C260.917 227.729 253.112 239.93 225.551 241.192Z" fill="white"></path><path d="M684.946 161.506L685.311 74.0569L650.982 72.8549L651.104 43.4046L550.493 38.2959L550.249 88.2411C550.249 88.2411 550.859 88.6619 551.164 88.8422L551.347 88.9624L551.53 89.0826C587.445 114.626 607.445 170.642 597.079 216.62C591.957 239.038 578.908 261.877 560.249 279.908C573.176 305.512 598.481 314.107 639.884 309.96C656.47 308.337 666.897 305.452 684.336 298.3L684.824 193.361C677.628 197.207 670.982 198.95 664.519 199.191C653.787 199.551 650.433 195.644 650.433 184.946L650.555 162.107L684.946 161.506Z" fill="white"></path><path d="M327.288 648.168L211.128 636.07V499.605L202.495 499.718L185.876 633.47L100.429 624.595L86.5697 500.905H79.6401V622.39L3.2373 614.476V403.56L127.737 389.879L135.019 508.989H142.712L150.229 387.392L327.347 367.889V648.168H327.288Z" fill="white"></path><path d="M686.49 482.896C686.49 499.965 684.082 523.413 681.028 531.859L495.058 529.732C497.467 548.219 514.853 554.361 560.67 555.601C597.911 556.665 626.165 553.83 665.462 545.856L671.394 689.673C628.397 693.334 582.756 692.685 534.59 687.133C395.084 671.127 344.861 623.759 344.861 523.649C344.861 423.539 390.561 381.014 506.043 369.969C625.049 358.57 686.432 393.712 686.432 482.778L686.49 482.896ZM493.59 492.937L534.59 492.405C534.061 461.397 529.597 452.833 513.796 453.483C498.348 454.074 494.06 462.756 493.59 492.937Z" fill="white"></path></svg> </a>
+</span>
+<span class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-39ce447" href="https://www.linkedin.com/company/brandemi-design/" target="_blank">
+<span class="elementor-screen-only">Linkedin</span>
+<i class="fab fa-linkedin"></i> </a>
+</span>
+<span class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-behance elementor-repeater-item-6d817e4" href="https://www.behance.net/brandemic" target="_blank">
+<span class="elementor-screen-only">Behance</span>
+<i class="fab fa-behance"></i> </a>
+</span>
+<span class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-2f28a12" href="https://www.instagram.com/brandemic_design/" target="_blank">
+<span class="elementor-screen-only">Instagram</span>
+<i class="fab fa-instagram"></i> </a>
+</span>
+<span class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-aeec67e" href="https://www.facebook.com/Brandemic-114674026917466" target="_blank">
+<span class="elementor-screen-only">Facebook</span>
+<i class="fab fa-facebook"></i> </a>
+</span>
+<span class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-bb65526" href="https://youtube.com/@Brandemic_Design" target="_blank">
+<span class="elementor-screen-only">Youtube</span>
+<i class="fab fa-youtube"></i> </a>
+</span>
+<span class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-x-twitter (3) elementor-repeater-item-7062420" href="https://twitter.com/brandemicglobal" target="_blank">
+<span class="elementor-screen-only">X-twitter (3)</span>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg> </a>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-4b96100 elementor-hidden-desktop elementor-hidden-tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4b96100" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6041f2d" data-id="6041f2d" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-ecdbbb8 elementor-widget elementor-widget-image" data-id="ecdbbb8" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<img fetchpriority="high" width="494" height="115" src="../wp-content/uploads/2022/09/logo-white.png" class="attachment-full size-full wp-image-22421" alt="brandemic logo" decoding="async" /> </div>
+</div>
+<div class="elementor-element elementor-element-509cb30 elementor-icon-list--layout-inline elementor-align-left elementor-mobile-align-left elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="509cb30" data-element_type="widget" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items elementor-inline-items">
+<li class="elementor-icon-list-item elementor-inline-item">
+<a href="../about-us/index.html">
+<span class="elementor-icon-list-text">About Us</span>
+</a>
+</li>
+<li class="elementor-icon-list-item elementor-inline-item">
+<a href="../portfolio/index.html">
+<span class="elementor-icon-list-text">Portfolio</span>
+</a>
+</li>
+<li class="elementor-icon-list-item elementor-inline-item">
+<a href="../creative-studio/index.html">
+<span class="elementor-icon-list-text">Creative Studio</span>
+</a>
+</li>
+<li class="elementor-icon-list-item elementor-inline-item">
+<a href="../awards/index.html">
+<span class="elementor-icon-list-text">Awards</span>
+</a>
+</li>
+<li class="elementor-icon-list-item elementor-inline-item">
+<a href="../careers/index.html">
+<span class="elementor-icon-list-text">Careers</span>
+</a>
+</li>
+<li class="elementor-icon-list-item elementor-inline-item">
+<a href="../blog/index.html">
+<span class="elementor-icon-list-text">Blog</span>
+</a>
+</li>
+<li class="elementor-icon-list-item elementor-inline-item">
+<a href="../contact-us/index.html">
+<span class="elementor-icon-list-text">Contact Us</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-b63cc12 elementor-hidden-desktop elementor-hidden-tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b63cc12" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1f6874f" data-id="1f6874f" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-f89140d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f89140d" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c1b4576" data-id="c1b4576" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-22e9903 elementor-widget elementor-widget-heading" data-id="22e9903" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default">FIND US</h2> </div>
+</div>
+<div class="elementor-element elementor-element-aba30a9 elementor-widget elementor-widget-heading" data-id="aba30a9" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default"><a href="https://goo.gl/maps/nhdTrLJ8vCb9fyhz6">49, 1st Cross Rd, 5th Block,
+Koramangala, Bengaluru - 560095</a></h2> </div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-aaefd24" data-id="aaefd24" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-447a848 elementor-widget elementor-widget-heading" data-id="447a848" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default">CONNECT</h2> </div>
+</div>
+<div class="elementor-element elementor-element-e72c041 elementor-widget elementor-widget-heading" data-id="e72c041" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default"><a href="../cdn-cgi/l/email-protection.html#650c0b030a250717040b0100080c064b0c0b"><span class="__cf_email__" data-cfemail="1f767179705f7d6d7e717b7a72767c317671">[email&#160;protected]</span></a></h2> </div>
+</div>
+<div class="elementor-element elementor-element-edfae74 elementor-widget elementor-widget-heading" data-id="edfae74" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default"><a href="tel:+91%2090087%2058448">+91 90087 58448</a></h2> </div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-bafaea3" data-id="bafaea3" data-element_type="column">
+<div class="elementor-widget-wrap">
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-9df3860 elementor-hidden-desktop elementor-hidden-tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9df3860" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2223cc1" data-id="2223cc1" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-a9b7f46 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a9b7f46" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-bd32417" data-id="bd32417" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-1fb2b21 elementor-widget elementor-widget-heading" data-id="1fb2b21" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default">STAY UP TO DATE</h2> </div>
+</div>
+<div class="elementor-element elementor-element-7476efa elementor-widget elementor-widget-form" data-id="7476efa" data-element_type="widget" data-settings="{&quot;button_width&quot;:&quot;20&quot;,&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width_mobile&quot;:&quot;30&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
+<div class="elementor-widget-container">
+<form class="elementor-form" method="post" name="New Form">
+<input type="hidden" name="post_id" value="228" />
+<input type="hidden" name="form_id" value="7476efa" />
+<input type="hidden" name="referer_title" value="Master Videography &amp; Photography | Brandemic Blog" />
+<div class="elementor-form-fields-wrapper elementor-labels-above">
+<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-70 elementor-field-required">
+<input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-md  elementor-field-textual" placeholder="Subscribe with email" required="required" aria-required="true">
+</div>
+<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons elementor-sm-30">
+<button class="elementor-button elementor-size-md" type="submit">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none"><circle r="22.5" transform="matrix(1 1.74846e-07 1.74846e-07 -1 22.5 22.5)" fill="white"></circle><path d="M31 22.1429L24.1429 29M31 22.1429L24.1429 15.2857M31 22.1429L15 22.1429" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg> <span class="elementor-screen-only">Submit</span>
+</span>
+</span>
+</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-54bea47" data-id="54bea47" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-2dc7261 elementor-icon-list--layout-inline elementor-align-right elementor-tablet-align-left elementor-mobile-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="2dc7261" data-element_type="widget" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items elementor-inline-items">
+<li class="elementor-icon-list-item elementor-inline-item">
+<a href="../privacy-policy/index.html" target="_blank">
+<span class="elementor-icon-list-text">Privacy Policy</span>
+</a>
+</li>
+<li class="elementor-icon-list-item elementor-inline-item">
+<a href="../terms-of-use/index.html" target="_blank">
+<span class="elementor-icon-list-text">Terms Of Use</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-b4abd81 elementor-hidden-desktop elementor-hidden-tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b4abd81" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-15647c1" data-id="15647c1" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-c78ab44 e-grid-align-right e-grid-align-mobile-center elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="c78ab44" data-element_type="widget" data-widget_type="social-icons.default">
+<div class="elementor-widget-container">
+<div class="elementor-social-icons-wrapper elementor-grid">
+<span class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-DotMe social Icon elementor-repeater-item-931e678" href="https://dotme.bio/brandemic" target="_blank">
+<span class="elementor-screen-only">DotMe Social Icon</span>
+<svg xmlns="http://www.w3.org/2000/svg" width="687" height="692" viewBox="0 0 687 692" fill="none"><path d="M539.942 104.743C525.003 94.5258 507.381 87.9746 489.393 87.9746C482.929 87.9746 476.405 88.816 469.941 90.6792C445.49 97.1703 421.831 117.665 405.002 148.738C385.123 182.756 384.148 223.566 398.355 251.634C412.075 279.702 440.307 295.629 475.307 295.629C476.1 295.629 476.832 295.629 477.624 295.629C528.6 295.389 568.967 251.273 577.808 212.327C586.04 175.845 570.491 126.5 540.003 104.803L539.942 104.743Z" fill="white"></path><path d="M577.812 212.301C569.275 249.985 531.165 292.538 482.506 295.423C487.994 291.817 495.128 286.528 502.445 279.195C506.896 274.748 518.116 262.847 526.043 246.56C544.824 207.914 533.116 168.787 531.958 165C528.726 154.663 520.189 128.939 494.152 111.028C479.579 100.991 465.189 97.3248 456.347 95.7622C460.859 93.5985 465.372 91.9156 469.945 90.6534C494.396 83.7416 519.58 90.8337 539.946 104.717C570.495 126.414 586.044 175.759 577.751 212.241L577.812 212.301Z" fill="white" fill-opacity="0.56"></path><path d="M380.736 260.364C362.748 224.964 365.553 177.483 387.748 139.318C398.785 118.943 412.565 102.415 428.053 90.4544C402.26 39.3672 343.662 17.3095 233.539 11.6599L3.23174 0L0 383.635L230.978 361.457C324.028 352.502 380.553 333.509 411.833 296.426C398.602 287.29 387.87 275.09 380.736 260.364ZM225.551 241.192L217.136 241.612L217.929 131.985H226.344C253.905 131.985 261.527 143.825 261.222 185.777C260.917 227.729 253.112 239.93 225.551 241.192Z" fill="white"></path><path d="M684.946 161.506L685.311 74.0569L650.982 72.8549L651.104 43.4046L550.493 38.2959L550.249 88.2411C550.249 88.2411 550.859 88.6619 551.164 88.8422L551.347 88.9624L551.53 89.0826C587.445 114.626 607.445 170.642 597.079 216.62C591.957 239.038 578.908 261.877 560.249 279.908C573.176 305.512 598.481 314.107 639.884 309.96C656.47 308.337 666.897 305.452 684.336 298.3L684.824 193.361C677.628 197.207 670.982 198.95 664.519 199.191C653.787 199.551 650.433 195.644 650.433 184.946L650.555 162.107L684.946 161.506Z" fill="white"></path><path d="M327.288 648.168L211.128 636.07V499.605L202.495 499.718L185.876 633.47L100.429 624.595L86.5697 500.905H79.6401V622.39L3.2373 614.476V403.56L127.737 389.879L135.019 508.989H142.712L150.229 387.392L327.347 367.889V648.168H327.288Z" fill="white"></path><path d="M686.49 482.896C686.49 499.965 684.082 523.413 681.028 531.859L495.058 529.732C497.467 548.219 514.853 554.361 560.67 555.601C597.911 556.665 626.165 553.83 665.462 545.856L671.394 689.673C628.397 693.334 582.756 692.685 534.59 687.133C395.084 671.127 344.861 623.759 344.861 523.649C344.861 423.539 390.561 381.014 506.043 369.969C625.049 358.57 686.432 393.712 686.432 482.778L686.49 482.896ZM493.59 492.937L534.59 492.405C534.061 461.397 529.597 452.833 513.796 453.483C498.348 454.074 494.06 462.756 493.59 492.937Z" fill="white"></path></svg> </a>
+</span>
+<span class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-39ce447" href="https://www.linkedin.com/company/brandemi-design/" target="_blank">
+<span class="elementor-screen-only">Linkedin</span>
+<i class="fab fa-linkedin"></i> </a>
+</span>
+<span class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-behance elementor-repeater-item-6d817e4" href="https://www.behance.net/brandemic" target="_blank">
+<span class="elementor-screen-only">Behance</span>
+<i class="fab fa-behance"></i> </a>
+</span>
+<span class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-2f28a12" href="https://www.instagram.com/brandemic_design/" target="_blank">
+<span class="elementor-screen-only">Instagram</span>
+<i class="fab fa-instagram"></i> </a>
+</span>
+<span class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-aeec67e" href="https://www.facebook.com/Brandemic-114674026917466" target="_blank">
+<span class="elementor-screen-only">Facebook</span>
+<i class="fab fa-facebook"></i> </a>
+</span>
+<span class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-bb65526" href="https://youtube.com/@Brandemic_Design" target="_blank">
+<span class="elementor-screen-only">Youtube</span>
+<i class="fab fa-youtube"></i> </a>
+</span>
+<span class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-x-twitter (3) elementor-repeater-item-60b2fbc" href="https://twitter.com/brandemicglobal" target="_blank">
+<span class="elementor-screen-only">X-twitter (3)</span>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg> </a>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a6fe75f" data-id="a6fe75f" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-c1b1445 elementor-widget elementor-widget-image" data-id="c1b1445" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<img loading="lazy" width="878" height="102" src="../wp-content/uploads/2022/09/made-with-passion-by-B.svg" class="attachment-full size-full wp-image-22412" alt="made with passion by B" decoding="async" /> </div>
+</div>
+<div class="elementor-element elementor-element-b0d4644 elementor-widget elementor-widget-heading" data-id="b0d4644" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default">© 2024 Brandemic. All rights reserved. </h2> </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZLVF2G7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+var sbiajaxurl = "https://ytxsolutions.in/wp-admin/admin-ajax.php";
+</script>
+<div data-elementor-type="popup" data-elementor-id="2382" class="elementor elementor-2382 elementor-location-popup" data-elementor-settings="{&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;triggers&quot;:[],&quot;timing&quot;:[]}" data-elementor-post-type="elementor_library">
+<section class="elementor-section elementor-top-section elementor-element elementor-element-c31ca39 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="c31ca39" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation_mobile&quot;:&quot;none&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-53c7f48e" data-id="53c7f48e" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-1d1144a6 elementor-nav-menu__align-start elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu" data-id="1d1144a6" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+<div class="elementor-widget-container">
+<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-text e--animation-none">
+<ul id="menu-1-1d1144a6" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12478"><a href="../about-us/index.html" class="elementor-item">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12484"><a href="../portfolio/index.html" class="elementor-item">Portfolio</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-29761"><a class="elementor-item">Services</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29760"><a href="../services/branding/index.html" class="elementor-sub-item">Branding</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29758"><a href="../services/ui-ux-design/index.html" class="elementor-sub-item">UI UX Design</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29759"><a href="../services/web-development/index.html" class="elementor-sub-item">Web Development</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29757"><a href="../services/product-photography/index.html" class="elementor-sub-item">Product Photography</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29756"><a href="../services/packaging-design/index.html" class="elementor-sub-item">Packaging</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12483"><a href="../creative-studio/index.html" class="elementor-item">Creative Studio</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12479"><a href="../awards/index.html" class="elementor-item">Awards</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12997"><a href="../blog/index.html" class="elementor-item">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12482"><a href="../contact-us/index.html" class="elementor-item">Contact Us</a></li>
+</ul> </nav>
+<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+<ul id="menu-2-1d1144a6" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12478"><a href="../about-us/index.html" class="elementor-item" tabindex="-1">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12484"><a href="../portfolio/index.html" class="elementor-item" tabindex="-1">Portfolio</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-29761"><a class="elementor-item" tabindex="-1">Services</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29760"><a href="../services/branding/index.html" class="elementor-sub-item" tabindex="-1">Branding</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29758"><a href="../services/ui-ux-design/index.html" class="elementor-sub-item" tabindex="-1">UI UX Design</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29759"><a href="../services/web-development/index.html" class="elementor-sub-item" tabindex="-1">Web Development</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29757"><a href="../services/product-photography/index.html" class="elementor-sub-item" tabindex="-1">Product Photography</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29756"><a href="../services/packaging-design/index.html" class="elementor-sub-item" tabindex="-1">Packaging</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12483"><a href="../creative-studio/index.html" class="elementor-item" tabindex="-1">Creative Studio</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12479"><a href="../awards/index.html" class="elementor-item" tabindex="-1">Awards</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12997"><a href="../blog/index.html" class="elementor-item" tabindex="-1">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12482"><a href="../contact-us/index.html" class="elementor-item" tabindex="-1">Contact Us</a></li>
+</ul> </nav>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-6436bc40 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="6436bc40" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-621627ed" data-id="621627ed" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-53eb8f1f e-grid-align-right e-grid-align-tablet-center e-grid-align-mobile-center elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="53eb8f1f" data-element_type="widget" data-widget_type="social-icons.default">
+<div class="elementor-widget-container">
+<div class="elementor-social-icons-wrapper elementor-grid">
+<span class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-aeec67e" href="https://www.facebook.com/Brandemic-114674026917466" target="_blank">
+<span class="elementor-screen-only">Facebook</span>
+<i class="fab fa-facebook"></i> </a>
+</span>
+<span class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-359fe93" href="https://www.youtube.com/@Brandemic_Design/" target="_blank">
+<span class="elementor-screen-only">Youtube</span>
+<i class="fab fa-youtube"></i> </a>
+</span>
+<span class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-2f28a12" href="https://www.instagram.com/brandemic_design/" target="_blank">
+<span class="elementor-screen-only">Instagram</span>
+<i class="fab fa-instagram"></i> </a>
+</span>
+<span class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-behance elementor-repeater-item-6d817e4" href="https://www.behance.net/brandemic" target="_blank">
+<span class="elementor-screen-only">Behance</span>
+<i class="fab fa-behance"></i> </a>
+</span>
+<span class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-39ce447" href="https://www.linkedin.com/company/brandemi-design/" target="_blank">
+<span class="elementor-screen-only">Linkedin</span>
+<i class="fab fa-linkedin"></i> </a>
+</span>
+<span class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-3d7041f" href="https://twitter.com/Brandemic4" target="_blank">
+<span class="elementor-screen-only">Twitter</span>
+<i class="fab fa-twitter"></i> </a>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-5b2a209c elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="5b2a209c" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-58ec2df" data-id="58ec2df" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-1181553b elementor-widget elementor-widget-image" data-id="1181553b" data-element_type="widget" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<img loading="lazy" width="166" height="20" src="../wp-content/uploads/2022/11/madebybrandemic.svg" class="attachment-large size-large wp-image-2330" alt="madebybrandemic" decoding="async" /> </div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1d3b4d3d" data-id="1d3b4d3d" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+</div>
+</div>
+</div>
+</section>
+</div>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+<link rel="stylesheet" id="jeg-dynamic-style-css" href="../wp-content/plugins/jeg-elementor-kit/lib/jeg-framework/assets/css/jeg-dynamic-styles%EF%B9%96ver=1.3.0.css" media="all" />
+<script type="rocketlazyloadscript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/brandemic.in","onHoverDelay":"100","rateThrottle":"3"};
+</script>
+<script type="rocketlazyloadscript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://ytxsolutions.in/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=3.1.1" id="hello-theme-frontend-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://ytxsolutions.in/wp-content/cache/min/1/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js?ver=1725622949" id="elementskit-framework-js-frontend-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" id="elementskit-framework-js-frontend-js-after">
+		var elementskit = {
+			resturl: 'https://ytxsolutions.in/wp-json/elementskit/v1/',
+		}
+
+		
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://ytxsolutions.in/wp-content/cache/min/1/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts.js?ver=1725622949" id="ekit-widget-scripts-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://ytxsolutions.in/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.23.4" id="elementor-webpack-runtime-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://ytxsolutions.in/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.23.4" id="elementor-frontend-modules-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://ytxsolutions.in/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://ytxsolutions.in/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},
+"version":"3.23.4","is_static":false,"experimentalFeatures":{"additional_custom_breakpoints":true,"container":true,"container_grid":true,"e_swiper_latest":true,"e_nested_atomic_repeaters":true,"e_onboarding":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"home_screen":true,"ai-layout":true,"landing-pages":true,"nested-elements":true,"e_lazyload":true,"link-in-bio":true,"display-conditions":true,"form-submissions":true,"mega-menu":true,"taxonomy-filter":true},"urls":{"assets":"https:\/\/brandemic.in\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/brandemic.in\/wp-admin\/admin-ajax.php"},"nonces":{"floatingButtonsClickTracking":"a86d4cf925"},"swiperClass":"swiper","settings":{"editorPreferences":[]},"kit":{"body_background_background":"classic","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"logo","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":0,"title":"Master Videography &amp; Photography | Brandemic Blog","excerpt":""}};
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://ytxsolutions.in/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.23.4" id="elementor-frontend-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" id="elementor-frontend-js-after">
+var jkit_ajax_url = "https://ytxsolutions.in/?jkit-ajax-request=jkit_elements", jkit_nonce = "5ccc2290df";
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://ytxsolutions.in/wp-content/cache/min/1/wp-content/plugins/jeg-elementor-kit/assets/js/elements/sticky-element.js?ver=1725622949" id="jkit-sticky-element-js" data-rocket-defer defer></script>
+<script id="eael-general-js-extra">
+var localize = {"ajaxurl":"https:\/\/brandemic.in\/wp-admin\/admin-ajax.php","nonce":"8211d92f06","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"eael_translate_text":{"required_text":"is a required field","invalid_text":"Invalid","billing_text":"Billing","shipping_text":"Shipping","fg_mfp_counter_text":"of"},"page_permalink":"https:\/\/brandemic.in\/power-of-brand-photography-for-success\/","cart_redirectition":"","cart_page_url":"","el_breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://ytxsolutions.in/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js?ver=6.0.3" id="eael-general-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://ytxsolutions.in/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.23.3" id="e-sticky-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://ytxsolutions.in/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-js/premium-wrapper-link.min.js?ver=4.10.50" id="pa-wrapper-link-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://ytxsolutions.in/wp-content/cache/min/1/wp-content/plugins/jeg-elementor-kit/assets/js/elements/nav-menu.js?ver=1725622949" id="jkit-element-navmenu-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://ytxsolutions.in/wp-content/cache/min/1/wp-content/uploads/ac_assets/fullscreen_navigation_menu/menu.js?ver=1725622949" id="uc_ac_assets_file_menu_js_7735-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://ytxsolutions.in/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1" id="smartmenus-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://ytxsolutions.in/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://ytxsolutions.in/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.23.3" id="elementor-pro-webpack-runtime-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://ytxsolutions.in/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18" id="wp-hooks-js"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://ytxsolutions.in/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="rocketlazyloadscript" id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type="rocketlazyloadscript" id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/brandemic.in\/wp-admin\/admin-ajax.php","nonce":"af3c3ad98c","urls":{"assets":"https:\/\/brandemic.in\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/brandemic.in\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},
+"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/brandemic.in\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://ytxsolutions.in/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.23.3" id="elementor-pro-frontend-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://ytxsolutions.in/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.23.3" id="pro-elements-handlers-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://ytxsolutions.in/wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle.min.js?ver=3.2.7" id="animate-circle-js" data-rocket-defer defer></script>
+<script id="elementskit-elementor-js-extra">
+var ekit_config = {"ajaxurl":"https:\/\/brandemic.in\/wp-admin\/admin-ajax.php","nonce":"fe41a16ff9"};
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://ytxsolutions.in/wp-content/cache/min/1/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor.js?ver=1725622949" id="elementskit-elementor-js" data-rocket-defer defer></script>
+
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="unlimited-elements-scripts">window.addEventListener('DOMContentLoaded', function() {
+
+/* Fullscreen Menu scripts: */ 
+
+jQuery(document).ready(function(){
+  	
+  	var objWidget = jQuery("#uc_fullscreen_navigation_menu_elementor_2e93dbb");
+	var objCheckbox = objWidget.find(".checkbox-toggle");
+  	var objInputWrapper = objWidget.find(".ue-input-wrapper-align");
+  
+	if (objCheckbox.is(":checked"))
+    objCheckbox.removeAttr("checked");
+          
+    objCheckbox.prop('checked',false);
+    objWidget.removeClass("menu-opened");
+	
+	var objLinks = jQuery("#uc_fullscreen_navigation_menu_elementor_2e93dbb .uc-list-menu a");
+  	var body = jQuery("body.elementor-page");
+ 
+  
+  	objWidget.delegate(".checkbox-toggle", "click", function(){
+
+      if(objCheckbox.is(":checked")){
+        body.addClass("menu-opened");
+        objWidget.addClass("menu-opened");
+        objMenu.collapseAll();
+                
+      }else{
+      	body.removeClass("menu-opened");
+        objWidget.removeClass("menu-opened");
+      }            
+    });
+  
+  	function toggleIcon(objLink){    
+      
+      var isLinkOpened = objLink.hasClass('expanded');
+      var objLinkContainer = objLink.find('.uc-menu-item-pointer');
+      
+      var objMenu = jQuery("#uc_fullscreen_navigation_menu_elementor_2e93dbb");
+      
+      var objExpandIcon = objMenu.find(".ue_inner_menu_expand_icon").html();
+      var objCollapseIcon = objMenu.find(".ue_inner_menu_collapse_icon").html();
+  
+      if(isLinkOpened == true)
+      objLinkContainer.html(objCollapseIcon);
+      
+      if(isLinkOpened == false)
+      objLinkContainer.html(objExpandIcon);       
+              
+    }
+	
+  	jQuery(window).on("keydown", function(e) {
+        if(e.key == "Escape"){
+           if (objCheckbox.is(":checked"))
+            objCheckbox.removeAttr("checked");
+
+            objCheckbox.prop('checked',false); 
+          	objWidget.removeClass("menu-opened");
+          
+           body.removeClass("menu-opened");
+        } 
+	});
+  
+  	//imitate top position of the close icon
+    	
+  
+    if(typeof UCAccordionMenu == "undefined"){
+      	console.log("fullscreen menu error: the fullscreen file: menu.js in ac_assets folder is missing or empty, please check");
+	}
+    
+    var objMenu = new UCAccordionMenu("uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_inner_menu");
+    objMenu.runMenu();
+     
+     
+     
+    objLinks.click(function(e){
+      
+		var objLink = jQuery(this);
+      
+      	toggleIcon(objLink);
+        
+		var url = objLink.attr("href");
+		url = jQuery.trim(url);
+		
+		if(!url)
+			return(true);
+      
+      	var objLinkParent = objLink.parent();
+      	var isClickable = jQuery("#uc_fullscreen_navigation_menu_elementor_2e93dbb .ue_inner_menu").data('clickable');
+      
+      	function goToItem(){
+        	
+              if (objCheckbox.is(":checked"))
+              objCheckbox.removeAttr("checked");
+
+              objCheckbox.prop('checked',false);
+              objWidget.removeClass("menu-opened");
+            
+
+          	body.removeClass("menu-opened");
+        }
+      
+      	var expandCollapsed = jQuery('.uc-menu-item-pointer');
+      	var target = e.target
+        
+        if(target == expandCollapsed[0]){
+          return(true);
+        }
+      
+      	if(isClickable == false){
+          
+          if(objLinkParent.hasClass('menu-item-has-children')){
+          	return(true)
+          }else{
+          	goToItem();
+          }
+          
+        }else{
+          goToItem();
+        }
+      
+		return(true);
+	});
+     
+          
+         
+  
+});
+});</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Brandemic",
+  "image": "https://ytxsolutions.in/wp-content/uploads/2022/09/logo-brandemic.svg",
+  "@id": "",
+  "url": "https://ytxsolutions.in/",
+  "telephone": "+91 90087 58448",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "49, 1st Cross Rd, 5th Block, Koramangala",
+    "addressLocality": "Bengaluru",
+    "postalCode": "560095",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 12.9330647,
+    "longitude": 77.621558
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Monday",
+    "opens": "10:30",
+    "closes": "18:30"
+  },{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Tuesday",
+    "opens": "10:30",
+    "closes": "18:30"
+  },{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Wednesday",
+    "opens": "10:30",
+    "closes": "18:30"
+  },{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Thursday",
+    "opens": "10:30",
+    "closes": "18:30"
+  },{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Friday",
+    "opens": "10:30",
+    "closes": "18:30"
+  },{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Saturday",
+    "opens": "10:30",
+    "closes": "18:30"
+  }],
+  "sameAs": [
+    "https://twitter.com/Brandemic4",
+    "https://www.instagram.com/brandemic_design/",
+    "https://www.youtube.com/@Brandemic_Design",
+    "https://in.linkedin.com/company/brandemic-design",
+    "https://ytxsolutions.in/",
+    "https://www.facebook.com/brandemic.design"
+  ] 
+}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/intlTelInput.min.js"></script>
+<script type="rocketlazyloadscript">
+        const input = document.querySelector("#contact_number");
+        window.intlTelInput(input, {
+            initialCountry: "auto",
+            geoIpLookup: callback => {
+                fetch("https://ipapi.co/json")
+                    .then(res => res.json())
+                    .then(data => callback(data.country_code))
+                    .catch(() => callback("us"));
+            },
+            hiddenInput: "full",
+            utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/utils.js",
+        });
+    </script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://ytxsolutions.in/wp-content/cache/min/1/npm/gsap@3.12.5/dist/gsap.min.js?ver=1725622950"></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://ytxsolutions.in/wp-content/cache/min/1/ajax/libs/gsap/3.12.5/Draggable.min.js?ver=1725622950"></script>
+<script type="rocketlazyloadscript" class="client-marquee">
+    const container = document.querySelector('.clients-marquee');
+
+    Draggable.create(container, {
+        type: 'x',
+        edgeResistance: 0.5,
+        bounds: '.clients',
+        throwResistance: 500,
+    });
+
+
+    let loops = gsap.utils.toArray('.clients-marquee').map((line, i) => {
+        const links = line.querySelectorAll(".clients-marquee .client-logo"),
+            tl = horizontalLoop(links, {
+                repeat: -1,
+                speed: 1 + i * 0.5,
+                draggable: true,
+                reversed: false,
+                paddingRight: parseFloat(gsap.getProperty(links[0], "marginRight", "px"))
+            });
+        links.forEach(link => {
+            link.addEventListener("mouseenter", () => gsap.to(tl, { timeScale: 0, overwrite: true }));
+            link.addEventListener("mouseleave", () => gsap.to(tl, { timeScale: i ? -1 : 1, overwrite: true }));
+        });
+    });
+
+    let currentScroll = 0;
+    let scrollDirection = 1;
+
+    window.addEventListener("scroll", () => {
+        let direction = (window.pageYOffset > currentScroll) ? 1 : -1;
+        if (direction !== scrollDirection) {
+            loops.forEach(tl => gsap.to(tl, { timeScale: direction, overwrite: false }));
+            scrollDirection = direction;
+        }
+        currentScroll = window.pageYOffset;
+    });
+
+
+    /*
+    This helper function makes a group of elements animate along the x-axis in a seamless, responsive loop.
+    
+    Features:
+     - Uses xPercent so that even if the widths change (like if the window gets resized), it should still work in most cases.
+     - When each item animates to the left or right enough, it will loop back to the other side
+     - Optionally pass in a config object with values like "speed" (default: 1, which travels at roughly 100 pixels per second), paused (boolean),  repeat, reversed, and paddingRight.
+     - The returned timeline will have the following methods added to it:
+       - next() - animates to the next element using a timeline.tweenTo() which it returns. You can pass in a vars object to control duration, easing, etc.
+       - previous() - animates to the previous element using a timeline.tweenTo() which it returns. You can pass in a vars object to control duration, easing, etc.
+       - toIndex() - pass in a zero-based index value of the element that it should animate to, and optionally pass in a vars object to control duration, easing, etc. Always goes in the shortest direction
+       - current() - returns the current index (if an animation is in-progress, it reflects the final index)
+       - times - an Array of the times on the timeline where each element hits the "starting" spot. There's also a label added accordingly, so "label1" is when the 2nd element reaches the start.
+     */
+    function horizontalLoop(items, config) {
+        items = gsap.utils.toArray(items);
+        config = config || {};
+        let tl = gsap.timeline({ repeat: config.repeat, paused: config.paused, defaults: { ease: "none" }, onReverseComplete: () => tl.totalTime(tl.rawTime() + tl.duration() * 100) }),
+            length = items.length,
+            startX = items[0].offsetLeft,
+            times = [],
+            widths = [],
+            xPercents = [],
+            curIndex = 0,
+            pixelsPerSecond = (config.speed || 1) * 100,
+            snap = config.snap === false ? v => v : gsap.utils.snap(config.snap || 1), // some browsers shift by a pixel to accommodate flex layouts, so for example if width is 20% the first element's width might be 242px, and the next 243px, alternating back and forth. So we snap to 5 percentage points to make things look more natural
+            populateWidths = () => items.forEach((el, i) => {
+                widths[i] = parseFloat(gsap.getProperty(el, "width", "px"));
+                xPercents[i] = snap(parseFloat(gsap.getProperty(el, "x", "px")) / widths[i] * 100 + gsap.getProperty(el, "xPercent"));
+            }),
+            getTotalWidth = () => items[length - 1].offsetLeft + xPercents[length - 1] / 100 * widths[length - 1] - startX + items[length - 1].offsetWidth * gsap.getProperty(items[length - 1], "scaleX") + (parseFloat(config.paddingRight) || 0),
+            totalWidth, curX, distanceToStart, distanceToLoop, item, i;
+        populateWidths();
+        gsap.set(items, { // convert "x" to "xPercent" to make things responsive, and populate the widths/xPercents Arrays to make lookups faster.
+            xPercent: i => xPercents[i]
+        });
+        gsap.set(items, { x: 0 });
+        totalWidth = getTotalWidth();
+        for (i = 0; i < length; i++) {
+            item = items[i];
+            curX = xPercents[i] / 100 * widths[i];
+            distanceToStart = item.offsetLeft + curX - startX;
+            distanceToLoop = distanceToStart + widths[i] * gsap.getProperty(item, "scaleX");
+            tl.to(item, { xPercent: snap((curX - distanceToLoop) / widths[i] * 100), duration: distanceToLoop / pixelsPerSecond }, 0)
+                .fromTo(item, { xPercent: snap((curX - distanceToLoop + totalWidth) / widths[i] * 100) }, { xPercent: xPercents[i], duration: (curX - distanceToLoop + totalWidth - curX) / pixelsPerSecond, immediateRender: false }, distanceToLoop / pixelsPerSecond)
+                .add("label" + i, distanceToStart / pixelsPerSecond);
+            times[i] = distanceToStart / pixelsPerSecond;
+        }
+        function toIndex(index, vars) {
+            vars = vars || {};
+            (Math.abs(index - curIndex) > length / 2) && (index += index > curIndex ? -length : length); // always go in the shortest direction
+            let newIndex = gsap.utils.wrap(0, length, index),
+                time = times[newIndex];
+            if (time > tl.time() !== index > curIndex) { // if we're wrapping the timeline's playhead, make the proper adjustments
+                vars.modifiers = { time: gsap.utils.wrap(0, tl.duration()) };
+                time += tl.duration() * (index > curIndex ? 1 : -1);
+            }
+            curIndex = newIndex;
+            vars.overwrite = true;
+            return tl.tweenTo(time, vars);
+        }
+        tl.next = vars => toIndex(curIndex + 1, vars);
+        tl.previous = vars => toIndex(curIndex - 1, vars);
+        tl.current = () => curIndex;
+        tl.toIndex = (index, vars) => toIndex(index, vars);
+        tl.updateIndex = () => curIndex = Math.round(tl.progress() * (items.length - 1));
+        tl.times = times;
+        tl.progress(1, true).progress(0, true); // pre-render for performance
+        if (config.reversed) {
+            tl.vars.onReverseComplete();
+            tl.reverse();
+        }
+        if (config.draggable && typeof (Draggable) === "function") {
+            let proxy = document.createElement("div"),
+                wrap = gsap.utils.wrap(0, 1),
+                ratio, startProgress, draggable, dragSnap, roundFactor,
+                align = () => tl.progress(wrap(startProgress + (draggable.startX - draggable.x) * ratio)),
+                syncIndex = () => tl.updateIndex();
+            typeof (InertiaPlugin) === "undefined" && console.warn("InertiaPlugin required for momentum-based scrolling and snapping. https://greensock.com/club");
+            draggable = Draggable.create(proxy, {
+                trigger: items[0].parentNode,
+                type: "x",
+                onPress() {
+                    startProgress = tl.progress();
+                    tl.progress(0);
+                    populateWidths();
+                    totalWidth = getTotalWidth();
+                    ratio = 1 / totalWidth;
+                    dragSnap = totalWidth / items.length;
+                    roundFactor = Math.pow(10, ((dragSnap + "").split(".")[1] || "").length);
+                    tl.progress(startProgress);
+                },
+                onDrag: align,
+                onThrowUpdate: align,
+                inertia: true,
+                snap: value => {
+                    let n = Math.round(parseFloat(value) / dragSnap) * dragSnap * roundFactor;
+                    return (n - n % 1) / roundFactor;
+                },
+                onRelease: syncIndex,
+                onThrowComplete: () => gsap.set(proxy, { x: 0 }) && syncIndex()
+            })[0];
+        }
+
+        return tl;
+    }
+</script>
+<script>class RocketElementorAnimation{constructor(){this.deviceMode=document.createElement("span"),this.deviceMode.id="elementor-device-mode-wpr",this.deviceMode.setAttribute("class","elementor-screen-only"),document.body.appendChild(this.deviceMode)}_detectAnimations(){let t=getComputedStyle(this.deviceMode,":after").content.replace(/"/g,"");this.animationSettingKeys=this._listAnimationSettingsKeys(t),document.querySelectorAll(".elementor-invisible[data-settings]").forEach(t=>{const e=t.getBoundingClientRect();if(e.bottom>=0&&e.top<=window.innerHeight)try{this._animateElement(t)}catch(t){}})}_animateElement(t){const e=JSON.parse(t.dataset.settings),i=e._animation_delay||e.animation_delay||0,n=e[this.animationSettingKeys.find(t=>e[t])];if("none"===n)return void t.classList.remove("elementor-invisible");t.classList.remove(n),this.currentAnimation&&t.classList.remove(this.currentAnimation),this.currentAnimation=n;let s=setTimeout(()=>{t.classList.remove("elementor-invisible"),t.classList.add("animated",n),this._removeAnimationSettings(t,e)},i);window.addEventListener("rocket-startLoading",function(){clearTimeout(s)})}_listAnimationSettingsKeys(t="mobile"){const e=[""];switch(t){case"mobile":e.unshift("_mobile");case"tablet":e.unshift("_tablet");case"desktop":e.unshift("_desktop")}const i=[];return["animation","_animation"].forEach(t=>{e.forEach(e=>{i.push(t+e)})}),i}_removeAnimationSettings(t,e){this._listAnimationSettingsKeys().forEach(t=>delete e[t]),t.dataset.settings=JSON.stringify(e)}static run(){const t=new RocketElementorAnimation;requestAnimationFrame(t._detectAnimations.bind(t))}}document.addEventListener("DOMContentLoaded",RocketElementorAnimation.run);</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" data-cf-beacon='{"rayId":"8bfc6c3fdcdb7ea0","version":"2024.8.0","r":1,"token":"3bc52af9465649ea91e5c796aba6f36d","serverTiming":{"name":{"cfExtPri":true,"cfL4":true}}}'></script>
+</body>
+</html>
