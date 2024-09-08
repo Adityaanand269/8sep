@@ -1,1 +1,41 @@
-{"id":30,"count":5,"description":"Explore our video production portfolio - a showcase of our creative expertise and visual storytelling. See our work come to life!","link":"https:\/\/brandemic.in\/portfolios\/video-production\/","name":"Video Production","slug":"video-production","taxonomy":"service","parent":0,"meta":[],"acf":[],"_links":{"self":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/service\/30"}],"collection":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/service"}],"about":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/taxonomies\/service"}],"wp:post_type":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/portfolio?service=30"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}
+{
+    "id": 30,
+    "count": 5,
+    "description": "Explore our video production portfolio - a showcase of our creative expertise and visual storytelling. See our work come to life!",
+    "link": "https:\/\/brandemic.in\/portfolios\/video-production\/",
+    "name": "Video Production",
+    "slug": "video-production",
+    "taxonomy": "service",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/service\/30"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/service"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/taxonomies\/service"
+            }
+        ],
+        "wp:post_type": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/portfolio?service=30"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

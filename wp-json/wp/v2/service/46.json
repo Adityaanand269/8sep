@@ -1,1 +1,41 @@
-{"id":46,"count":6,"description":"Explore our prestigious awards page showcasing excellence, achievement, and innovation in various fields. Recognising the best of the best.","link":"https:\/\/brandemic.in\/portfolios\/award-winning\/","name":"Award Winning","slug":"award-winning","taxonomy":"service","parent":0,"meta":[],"acf":[],"_links":{"self":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/service\/46"}],"collection":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/service"}],"about":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/taxonomies\/service"}],"wp:post_type":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/portfolio?service=46"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}
+{
+    "id": 46,
+    "count": 6,
+    "description": "Explore our prestigious awards page showcasing excellence, achievement, and innovation in various fields. Recognising the best of the best.",
+    "link": "https:\/\/brandemic.in\/portfolios\/award-winning\/",
+    "name": "Award Winning",
+    "slug": "award-winning",
+    "taxonomy": "service",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/service\/46"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/service"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/taxonomies\/service"
+            }
+        ],
+        "wp:post_type": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/portfolio?service=46"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

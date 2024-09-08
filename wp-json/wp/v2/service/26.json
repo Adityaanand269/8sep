@@ -1,1 +1,41 @@
-{"id":26,"count":37,"description":"Here\u2019s just a sample of how we embody design-thinking and strategy to help you achieve your big dream.","link":"https:\/\/brandemic.in\/portfolios\/branding\/","name":"Branding","slug":"branding","taxonomy":"service","parent":0,"meta":[],"acf":[],"_links":{"self":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/service\/26"}],"collection":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/service"}],"about":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/taxonomies\/service"}],"wp:post_type":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/portfolio?service=26"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}
+{
+    "id": 26,
+    "count": 37,
+    "description": "Here\u2019s just a sample of how we embody design-thinking and strategy to help you achieve your big dream.",
+    "link": "https:\/\/brandemic.in\/portfolios\/branding\/",
+    "name": "Branding",
+    "slug": "branding",
+    "taxonomy": "service",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/service\/26"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/service"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/taxonomies\/service"
+            }
+        ],
+        "wp:post_type": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/portfolio?service=26"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

@@ -1,1 +1,41 @@
-{"id":97,"count":23,"description":"Optimize your online presence with our sleek web UI\/UX designs. Look through our portfolio for innovative solutions","link":"https:\/\/brandemic.in\/portfolios\/web-ui-ux\/","name":"Web UI\/UX","slug":"web-ui-ux","taxonomy":"service","parent":0,"meta":[],"acf":[],"_links":{"self":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/service\/97"}],"collection":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/service"}],"about":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/taxonomies\/service"}],"wp:post_type":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/portfolio?service=97"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}
+{
+    "id": 97,
+    "count": 23,
+    "description": "Optimize your online presence with our sleek web UI\/UX designs. Look through our portfolio for innovative solutions",
+    "link": "https:\/\/brandemic.in\/portfolios\/web-ui-ux\/",
+    "name": "Web UI\/UX",
+    "slug": "web-ui-ux",
+    "taxonomy": "service",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/service\/97"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/service"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/taxonomies\/service"
+            }
+        ],
+        "wp:post_type": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/portfolio?service=97"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

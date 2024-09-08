@@ -1,1 +1,41 @@
-{"id":43,"count":8,"description":"Explore our photography portfolio for a world of captivating images. Witness the beauty and imagination that goes into each breathtaking photo.","link":"https:\/\/brandemic.in\/portfolios\/photography\/","name":"Photography","slug":"photography","taxonomy":"service","parent":0,"meta":[],"acf":[],"_links":{"self":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/service\/43"}],"collection":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/service"}],"about":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/taxonomies\/service"}],"wp:post_type":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/portfolio?service=43"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}
+{
+    "id": 43,
+    "count": 8,
+    "description": "Explore our photography portfolio for a world of captivating images. Witness the beauty and imagination that goes into each breathtaking photo.",
+    "link": "https:\/\/brandemic.in\/portfolios\/photography\/",
+    "name": "Photography",
+    "slug": "photography",
+    "taxonomy": "service",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/service\/43"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/service"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/taxonomies\/service"
+            }
+        ],
+        "wp:post_type": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/portfolio?service=43"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

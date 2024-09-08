@@ -1,1 +1,41 @@
-{"id":98,"count":5,"description":"Revolutionize user experience with our cutting-edge app UI\/UX designs. Checkout our portfolio for innovative solutions","link":"https:\/\/brandemic.in\/portfolios\/product-and-app-ui-ux\/","name":"Product &amp; App UI\/UX","slug":"product-and-app-ui-ux","taxonomy":"service","parent":0,"meta":[],"acf":[],"_links":{"self":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/service\/98"}],"collection":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/service"}],"about":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/taxonomies\/service"}],"wp:post_type":[{"href":"https:\/\/brandemic.in\/wp-json\/wp\/v2\/portfolio?service=98"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}
+{
+    "id": 98,
+    "count": 5,
+    "description": "Revolutionize user experience with our cutting-edge app UI\/UX designs. Checkout our portfolio for innovative solutions",
+    "link": "https:\/\/brandemic.in\/portfolios\/product-and-app-ui-ux\/",
+    "name": "Product &amp; App UI\/UX",
+    "slug": "product-and-app-ui-ux",
+    "taxonomy": "service",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/service\/98"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/service"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/taxonomies\/service"
+            }
+        ],
+        "wp:post_type": [
+            {
+                "href": "https:\/\/brandemic.in\/wp-json\/wp\/v2\/portfolio?service=98"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}
